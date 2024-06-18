@@ -3,10 +3,6 @@ import json
 from main_menu import MainMenu
 from verb_practice import VerbPractice
 
-# Load the JSON data
-with open('C:\\Users\\mremr\\personal-dev\\me-gusta-practicar\\src\\assets\\verbs.json') as f:
-    data = json.load(f)
-
 # Initialize Pygame
 pygame.init()
 
@@ -16,7 +12,7 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Spanish Practice')
 
 def main():
-    verb_practice = VerbPractice(screen, data)
+    verb_practice = VerbPractice(screen)
 
     while True:
         menu = MainMenu(screen)

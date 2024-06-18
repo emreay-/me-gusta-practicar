@@ -1,9 +1,8 @@
 import pygame
 
 class PracticeBase:
-    def __init__(self, screen, data):
+    def __init__(self, screen):
         self.screen = screen
-        self.data = data
         self.font = pygame.font.Font(None, 74)
         self.medium_font = pygame.font.Font(None, 50)
         self.small_font = pygame.font.Font(None, 25)
