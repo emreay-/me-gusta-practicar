@@ -1,10 +1,8 @@
 import pygame
 import random
-from typing import List, Dict
 
-from verbs import load_verbs
-from practice_base import PracticeBase
-
+from me_gusta_practicar.core.verbs import load_verbs
+from me_gusta_practicar.practices.practice_base import PracticeBase
 
 __all__ = ["VerbPractice"]
 

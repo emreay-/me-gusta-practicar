@@ -1,5 +1,7 @@
 import pygame
 
+__all__ = ["PracticeBase"]
+
 class PracticeBase:
     def __init__(self, screen):
         self.screen = screen

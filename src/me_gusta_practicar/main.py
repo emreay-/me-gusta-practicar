@@ -1,7 +1,8 @@
 import pygame
 import json
-from main_menu import MainMenu
-from verb_practice import VerbPractice
+
+from me_gusta_practicar.main_menu import MainMenu
+from me_gusta_practicar.practices.verb_practice import VerbPractice
 
 # Initialize Pygame
 pygame.init()

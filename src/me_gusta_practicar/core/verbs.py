@@ -1,6 +1,7 @@
 import json
 from typing import List, Dict
-from util import path_to_verbs
+
+from me_gusta_practicar.core.util import load_verbs_json
 
 class Verb:
     def __init__(self, id: int, name: str, EN: str, is_regular: bool, is_reflexive: bool, 
@@ -26,10 +27,8 @@ class Verb:
     def __repr__(self):
         return f"Verb(id={self.id}, name='{self.name}', EN='{self.EN}', is_regular={self.is_regular}, is_reflexive={self.is_reflexive})"
 
-
 def load_verbs() -> List[Verb]:
     verbs = []
-    with open(path_to_verbs(), mode="r", encoding='utf-8') as handle:
-        for verb in json.load(handle):
-            verbs.append(Verb.from_json(verb))
+    for verb in load_verbs_json():
+        verbs.append(Verb.from_json(verb))
     return verbs

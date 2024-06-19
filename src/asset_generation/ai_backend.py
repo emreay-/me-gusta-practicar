@@ -1,46 +1,27 @@
-import openai
 import os
+from typing import List, Dict, Optional
 
 from openai import OpenAI
 
-client = OpenAI(
-  api_key="",  # this is also the default, it can be omitted
-)
+class AIBackend:
+    def __init__(self, api_key: Optional[str] = None) -> None:
+        self.client = OpenAI(api_key=api_key or os.environ['OPENAI_API_KEY'])
 
-def ask_chatgpt(question):
-    try:
-        chat_completion = client.chat.completions.create(
-            messages=[
-                {
-                    "role": "user",
-                    "content": question,
-                }
-            ],
-            model="gpt-3.5-turbo",
-        )
-
-        return chat_completion.choices[0].message.content
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return None
-
-
-
-def append_to_file(file_path, content_to_append, new_line=True):
-    """
-    Appends the given string to the content of the file at the specified path.
-
-    Parameters:
-    file_path (str): The path to the file.
-    content_to_append (str): The string to append to the file.
-    """
-    try:
-        with open(file_path, 'a', encoding='utf-8') as file:
-            file.write(content_to_append)
-            if new_line:
-                file.write("\n")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+    def ask(self, question: str) -> str:
+        try:
+            chat_completion = self.client.chat.completions.create(
+                messages=[
+                    {
+                        "role": "user",
+                        "content": question,
+                    }
+                ],
+                model="gpt-3.5-turbo",
+            )
+            return chat_completion.choices[0].message.content
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return None
 
 def get_question(verb, index):
     return """
@@ -283,15 +264,12 @@ verbs = [
 
 path = "C:\\Users\\mremr\\personal-dev\\me-gusta-practicar\\src\\assets\\chatgpt.json"
 
-for i, verb in enumerate(verbs):
-    try:
-        print(f"{i}/{len(verbs)}: {verb}")
-        answer = ask_chatgpt(get_question(verb, i))
-        print(answer)
+# for i, verb in enumerate(verbs):
+#     try:
+#         print(f"{i}/{len(verbs)}: {verb}")
+#         answer = ask_chatgpt(get_question(verb, i))
+#         print(answer)
 
-        append_to_file(path, answer)
-    except Exception as e:
-        print(f"Error occured for verb {verb}: {e}")
-    
-
-
+#         append_to_file(path, answer)
+#     except Exception as e:
+#         print(f"Error occured for verb {verb}: {e}")
