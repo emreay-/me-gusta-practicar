@@ -1,6 +1,21 @@
-from ai_backend import AIBackend
+"""
+We store verbs with their various information such as their conjugations, 
+english translation, whether they are regualar and so on in a JSON file.
+We curate this information using the AI Backend where we enter a prompt
+with what we need for a given verb. We automate this with this script using 
+a list of verbs we store as a text. This script will find the new verbs in the 
+list and fetch their information from the AI Backend and aggregate the JSON file. 
+"""
 
-def get_question(verb, index):
+import json
+from typing import List, Optional, Dict
+
+from ai_backend import AIBackend
+from utils import dump_json_to_file
+
+from me_gusta_practicar.core.util import load_verbs_set, load_verbs_json, path_to_verbs
+
+def _get_prompt(verb):
     return """
 I want to create a json structure for Spanish verbs as below:
 
@@ -30,223 +45,71 @@ I want to create a json structure for Spanish verbs as below:
     }
 }
 
-It is important to check that the verb is regular or not as if it is in reflexive form.
+It is important to check that the verb is regular or not as if it is in reflexive form. For instance hacer is irregular because it is hago for yo.
 
-Please curate this structure for verb """ + verb + " with id being " + str(index)
+Please curate this structure for verb """ + verb
 
-verbs = [
-    "abandonar",
-    "abrir",
-    "acabar",
-    "aceptar",
-    "acompañar",
-    "admitir",
-    "alcanzar",
-    "almorzar",
-    "amar",
-    "analizar",
-    "anunciar",
-    "apagar",
-    "aparecer",
-    "aplicar",
-    "apoyar",
-    "aprender",
-    "arreglar",
-    "asegurar",
-    "asistir",
-    "aumentar",
-    "avanzar",
-    "ayudar",
-    "añadir",
-    "bailar",
-    "bajar",
-    "buscar",
-    "caer",
-    "calcular",
-    "cambiar",
-    "caminar",
-    "cantar",
-    "celebrar",
-    "cenar",
-    "cerrar",
-    "cocinar",
-    "comenzar",
-    "comer",
-    "compartir",
-    "comprar",
-    "comprender",
-    "comunicar",
-    "concluir",
-    "conectar",
-    "confirmar",
-    "conocer",
-    "conseguir",
-    "conservar",
-    "considerar",
-    "construir",
-    "consultar",
-    "contar",
-    "contestar",
-    "controlar",
-    "convertir",
-    "correr",
-    "cortar",
-    "crear",
-    "crecer",
-    "creer",
-    "cumplir",
-    "dar",
-    "deber",
-    "decidir",
-    "decir",
-    "defender",
-    "dejar",
-    "demostrar",
-    "descansar",
-    "descubrir",
-    "desear",
-    "dibujar",
-    "dirigir",
-    "discutir",
-    "diseñar",
-    "dormir",
-    "elegir",
-    "empezar",
-    "encontrar",
-    "enseñar",
-    "entender",
-    "entrar",
-    "enviar",
-    "escapar",
-    "escribir",
-    "escuchar",
-    "esperar",
-    "establecer",
-    "estar",
-    "estudiar",
-    "existir",
-    "explicar",
-    "expresar",
-    "formar",
-    "funcionar",
-    "ganar",
-    "gastar",
-    "guardar",
-    "gustar",
-    "hablar",
-    "hacer",
-    "importar",
-    "incluir",
-    "insistir",
-    "intentar",
-    "interesar",
-    "investigar",
-    "ir",
-    "jugar",
-    "lanzar",
-    "lavar",
-    "leer",
-    "levantar",
-    "llamar",
-    "llegar",
-    "llevar",
-    "lograr",
-    "manifestar",
-    "mantener",
-    "medir",
-    "mejorar",
-    "mirar",
-    "morir",
-    "mover",
-    "nacer",
-    "necesitar",
-    "notar",
-    "observar",
-    "obtener",
-    "ocurrir",
-    "ofrecer",
-    "olvidar",
-    "oír",
-    "pagar",
-    "parar",
-    "parecer",
-    "participar",
-    "partir",
-    "pasar",
-    "pedir",
-    "pensar",
-    "perder",
-    "permitir",
-    "pintar",
-    "poder",
-    "poner",
-    "practicar",
-    "preguntar",
-    "preocupar",
-    "preparar",
-    "presentar",
-    "prever",
-    "producir",
-    "proponer",
-    "quedar",
-    "querer",
-    "realizar",
-    "rechazar",
-    "recibir",
-    "recoger",
-    "reconocer",
-    "recordar",
-    "reducir",
-    "remar",
-    "repetir",
-    "representar",
-    "resolver",
-    "responder",
-    "resultar",
-    "retirar",
-    "romper",
-    "saber",
-    "sacar",
-    "salir",
-    "seguir",
-    "sentar",
-    "sentir",
-    "ser",
-    "servir",
-    "señalar",
-    "sorprender",
-    "subir",
-    "sufrir",
-    "sugerir",
-    "suponer",
-    "tener",
-    "terminar",
-    "tocar",
-    "tomar",
-    "trabajar",
-    "traer",
-    "tratar",
-    "usar",
-    "utilizar",
-    "vender",
-    "venir",
-    "ver",
-    "viajar",
-    "visitar",
-    "vivir",
-    "volar",
-    "volver",
-    "votar",
-]
+def _get_verb_info(ai_backend: AIBackend, verb: str) -> Optional[str]:
+    return ai_backend.ask(_get_prompt(verb))
+#     return """
+# {
+#     "id": 0,
+#     "name": "A",
+#     "EN": "A",
+#     "is_regular": false,
+#     "is_reflexive": false,
+#     "conjugation": ""
+# }
+# """
 
-path = "C:\\Users\\mremr\\personal-dev\\me-gusta-practicar\\src\\assets\\chatgpt.json"
+def _has_entity(data: Dict, entity: str) -> bool:
+    return entity in data
 
-# for i, verb in enumerate(verbs):
-#     try:
-#         print(f"{i}/{len(verbs)}: {verb}")
-#         answer = ask_chatgpt(get_question(verb, i))
-#         print(answer)
+def _parse_verb_info(info: str) -> Optional[Dict]:
+    data = json.loads(info)
+    if all([_has_entity(data, i) for i in ["id", "name", "EN", "is_regular", "is_reflexive", "conjugation"]]):
+        return data
+    return None
 
-#         append_to_file(path, answer)
-#     except Exception as e:
-#         print(f"Error occured for verb {verb}: {e}")
+def _post_process_curated_verbs(verbs: Dict) -> List[Dict]:
+    name_to_verb = {i["name"]: i for i in verbs}
+    res = []
+
+    for i, name in enumerate(sorted(name_to_verb.keys())):
+        verb = name_to_verb[name]
+        verb["id"] = i
+        res.append(verb)
+    
+    return res
+
+
+def update_verbs_database():
+    curated_verbs = load_verbs_json()
+    new_verbs = load_verbs_set().difference(set(i["name"] for i in curated_verbs))
+
+    print(f"There are {len(new_verbs)} new words to be added to assets")
+
+    ai_backend = AIBackend()
+
+    for i, verb in enumerate(new_verbs):
+        try:
+            print(f"{i+1}/{len(new_verbs)}: {verb}")
+            verb_info = _get_verb_info(ai_backend, verb)
+            
+            if not verb_info:
+                print(f"Unable to fetch info for verb {verb}, maybe try again later")
+                continue
+            
+            parsed_info = _parse_verb_info(verb_info)
+            if not parsed_info:
+                print(f"Unable to parse verb info for {verb}, potentially missing fields: {verb_info}")
+            
+            curated_verbs.append(parsed_info)
+
+        except Exception as e:
+            print(f"Error occured for verb {verb}: {e}")
+    
+    dump_json_to_file(_post_process_curated_verbs(curated_verbs), path_to_verbs())
+
+if __name__ == "__main__":
+    update_verbs_database()

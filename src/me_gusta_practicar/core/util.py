@@ -1,4 +1,5 @@
 import json
+from typing import Set
 from importlib import resources
 
 
@@ -15,3 +16,10 @@ def path_to_verbs():
 
 def load_verbs_json():
     return load_json_asset("verbs.json")
+
+def load_verbs_set() -> Set[str]:
+    verbs = []
+    with open(get_asset_path("verbs_list.txt"), "r", encoding="utf-8") as file:
+        for line in file:
+            verbs.append(line.strip())
+    return set(verbs)
