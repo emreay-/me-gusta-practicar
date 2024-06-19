@@ -29,17 +29,22 @@ class VerbPractice(PracticeBase):
         self._select_verb()
 
     def _select_verb(self):
-        found = False
-        while not found:
+        iterations = 0
+        max_iterations = 20
+
+        while iterations < max_iterations:
             self.current_index = random.randint(0, len(self.verbs) - 1)
             verb = self.verbs[self.current_index]
+            iterations += 1
+
             if self.settings_options["regulares"] is False and verb.is_regular:
                 continue
             if self.settings_options["irregulares"] is False and not verb.is_regular:
                 continue
             if self.settings_options["reflexivos"] is False and verb.is_reflexive:
                 continue
-            found = True
+
+            break
 
     def run(self):
         running = True
