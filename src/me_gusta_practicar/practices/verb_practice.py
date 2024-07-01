@@ -80,18 +80,13 @@ class VerbPractice(PracticeBase):
             source = self._current_verb.name if self.settings_options["type"].value == "From Spanish" else self._current_verb.EN
             translation = self._current_verb.EN if self.settings_options["type"].value == "From Spanish" else self._current_verb.name
 
-            source_text = self._display.font.render(source, True, (0, 0, 0))
-            self._display.screen.blit(source_text, (self._display.screen.get_width() // 2 - source_text.get_width() // 2,
-                                                    self._display.screen.get_height() // 2 - source_text.get_height() // 2))
+            self._display.add_text_center(source)
 
             if self.show_translation:
-                translation_text = self._display.medium_font.render(translation, True, (0, 0, 0))
-                self._display.screen.blit(translation_text, (self._display.screen.get_width() // 2 - translation_text.get_width() // 2,
-                                                             self._display.screen.get_height() // 2 + source_text.get_height()))
+                self._display.add_text_center(translation, size="M", color=(100, 100, 100), y_offset=80)
 
             for i, instruction in enumerate(self.instructions):
-                instruction_text = self._display.small_font.render(instruction, True, (0, 0, 0))
-                self._display.screen.blit(instruction_text, (10, 10 + i * 30))
+                self._display.add_text(instruction, "S", (0, 0, 0), (10, 10 + i * 30))
 
             pygame.display.flip()
 
