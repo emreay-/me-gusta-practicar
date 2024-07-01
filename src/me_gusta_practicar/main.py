@@ -3,6 +3,7 @@ import json
 
 from me_gusta_practicar.main_menu import MainMenu
 from me_gusta_practicar.practices.verb_practice import VerbPractice
+from me_gusta_practicar.ui.display import Display
 
 # Initialize Pygame
 pygame.init()
@@ -13,7 +14,9 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Spanish Practice')
 
 def main():
-    verb_practice = VerbPractice(screen)
+    display = Display(screen=screen)
+
+    verb_practice = VerbPractice(display)
 
     while True:
         menu = MainMenu(screen)
