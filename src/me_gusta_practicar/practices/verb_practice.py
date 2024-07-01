@@ -1,7 +1,9 @@
 import pygame
 import random
 
-from me_gusta_practicar.core.verbs import load_verbs
+from typing import List
+
+from me_gusta_practicar.core.verbs import load_verbs, Verb
 from me_gusta_practicar.practices.practice_base import PracticeBase
 from me_gusta_practicar.ui.display import Display
 from me_gusta_practicar.ui.settings import SettingItem, BoolSettingItem, StringSettingItem, SettingsInterface
@@ -12,7 +14,7 @@ class VerbPractice(PracticeBase):
     def __init__(self, display: Display):
         super().__init__(display)
 
-        self.verbs = load_verbs()
+        self.verbs: List[Verb] = load_verbs()
 
         self.settings_options = {
             "type": StringSettingItem(
@@ -54,6 +56,10 @@ class VerbPractice(PracticeBase):
 
             break
 
+    @property
+    def _current_verb(self) -> Verb:
+        return self.verbs[self.current_index]
+
     def run(self):
         running = True
         while running:
@@ -71,14 +77,17 @@ class VerbPractice(PracticeBase):
 
             self._display.screen.fill((255, 255, 255))
 
-            spanish_text = self._display.font.render(self.verbs[self.current_index].name, True, (0, 0, 0))
-            self._display.screen.blit(spanish_text, (self._display.screen.get_width() // 2 - spanish_text.get_width() // 2,
-                                            self._display.screen.get_height() // 2 - spanish_text.get_height() // 2))
+            source = self._current_verb.name if self.settings_options["type"].value == "From Spanish" else self._current_verb.EN
+            translation = self._current_verb.EN if self.settings_options["type"].value == "From Spanish" else self._current_verb.name
+
+            source_text = self._display.font.render(source, True, (0, 0, 0))
+            self._display.screen.blit(source_text, (self._display.screen.get_width() // 2 - source_text.get_width() // 2,
+                                                    self._display.screen.get_height() // 2 - source_text.get_height() // 2))
 
             if self.show_translation:
-                english_text = self._display.medium_font.render(self.verbs[self.current_index].EN, True, (0, 0, 0))
-                self._display.screen.blit(english_text, (self._display.screen.get_width() // 2 - english_text.get_width() // 2,
-                                                self._display.screen.get_height() // 2 + spanish_text.get_height()))
+                translation_text = self._display.medium_font.render(translation, True, (0, 0, 0))
+                self._display.screen.blit(translation_text, (self._display.screen.get_width() // 2 - translation_text.get_width() // 2,
+                                                             self._display.screen.get_height() // 2 + source_text.get_height()))
 
             for i, instruction in enumerate(self.instructions):
                 instruction_text = self._display.small_font.render(instruction, True, (0, 0, 0))

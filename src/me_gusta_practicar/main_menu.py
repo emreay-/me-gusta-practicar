@@ -29,6 +29,8 @@ class MainMenu:
                         return self.menu_options[self.selected_option]
                     if event.key == pygame.K_s:
                         return "Settings"
+                    if event.key == pygame.K_ESCAPE:
+                        return
 
             self.screen.fill((255, 255, 255))
 
