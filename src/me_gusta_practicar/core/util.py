@@ -23,3 +23,16 @@ def load_verbs_set() -> Set[str]:
         for line in file:
             verbs.append(line.strip())
     return set(verbs)
+
+def path_to_nouns():
+    return get_asset_path("nouns.json")
+
+def load_nouns_json():
+    return load_json_asset("nouns.json")
+
+def load_nouns_set() -> Set[str]:
+    nouns = []
+    with open(get_asset_path("nouns_list.txt"), "r", encoding="utf-8") as file:
+        for line in file:
+            nouns.append(line.strip())
+    return set(nouns)

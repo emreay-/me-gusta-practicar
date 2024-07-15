@@ -6,7 +6,7 @@ class MainMenu:
         self.font = pygame.font.Font(None, 74)
         self.medium_font = pygame.font.Font(None, 50)
         self.small_font = pygame.font.Font(None, 25)
-        self.menu_options = ["Verb Practice", "Conjugation Practice"]
+        self.menu_options = ["Verb Practice", "Noun Practice", "Conjugation Practice"]
         self.selected_option = 0
         self.instructions = [
             "Up/Down: Navigate",

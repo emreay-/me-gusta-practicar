@@ -1,0 +1,854 @@
+[
+    {
+        "id": 0,
+        "name": "El País",
+        "EN": "country",
+        "género": "masculino"
+    },
+    {
+        "id": 1,
+        "name": "El corazón",
+        "EN": "heart",
+        "género": "masculino"
+    },
+    {
+        "id": 2,
+        "name": "el agua",
+        "EN": "water",
+        "género": "masculino"
+    },
+    {
+        "id": 3,
+        "name": "el alumno",
+        "EN": "student",
+        "género": "masculino"
+    },
+    {
+        "id": 4,
+        "name": "el ascensor",
+        "EN": "elevator",
+        "género": "masculino"
+    },
+    {
+        "id": 5,
+        "name": "el avión",
+        "EN": "airplane",
+        "género": "masculino"
+    },
+    {
+        "id": 6,
+        "name": "el azúcar",
+        "EN": "sugar",
+        "género": "masculino"
+    },
+    {
+        "id": 7,
+        "name": "el año",
+        "EN": "year",
+        "género": "masculino"
+    },
+    {
+        "id": 8,
+        "name": "el banco",
+        "EN": "bank",
+        "género": "masculino"
+    },
+    {
+        "id": 9,
+        "name": "el barco",
+        "EN": "boat",
+        "género": "masculino"
+    },
+    {
+        "id": 10,
+        "name": "el bosque",
+        "EN": "forest",
+        "género": "masculino"
+    },
+    {
+        "id": 11,
+        "name": "el café",
+        "EN": "coffee",
+        "género": "masculino"
+    },
+    {
+        "id": 12,
+        "name": "el cielo",
+        "EN": "sky",
+        "género": "masculino"
+    },
+    {
+        "id": 13,
+        "name": "el coche",
+        "EN": "car",
+        "género": "masculino"
+    },
+    {
+        "id": 14,
+        "name": "el color",
+        "EN": "color",
+        "género": "masculino"
+    },
+    {
+        "id": 15,
+        "name": "el cristal",
+        "EN": "glass",
+        "género": "masculino"
+    },
+    {
+        "id": 16,
+        "name": "el cuaderno",
+        "EN": "notebook",
+        "género": "masculino"
+    },
+    {
+        "id": 17,
+        "name": "el cuchillo",
+        "EN": "knife",
+        "género": "masculino"
+    },
+    {
+        "id": 18,
+        "name": "el cuerpo",
+        "EN": "body",
+        "género": "masculino"
+    },
+    {
+        "id": 19,
+        "name": "el desayuno",
+        "EN": "breakfast",
+        "género": "masculino"
+    },
+    {
+        "id": 20,
+        "name": "el diccionario",
+        "EN": "dictionary",
+        "género": "masculino"
+    },
+    {
+        "id": 21,
+        "name": "el dinero",
+        "EN": "money",
+        "género": "masculino"
+    },
+    {
+        "id": 22,
+        "name": "el domingo",
+        "EN": "Sunday",
+        "género": "masculino"
+    },
+    {
+        "id": 23,
+        "name": "el día",
+        "EN": "day",
+        "género": "masculino"
+    },
+    {
+        "id": 24,
+        "name": "el ejercicio",
+        "EN": "exercise",
+        "género": "masculino"
+    },
+    {
+        "id": 25,
+        "name": "el equipo",
+        "EN": "team",
+        "género": "masculino"
+    },
+    {
+        "id": 26,
+        "name": "el espacio",
+        "EN": "space",
+        "género": "masculino"
+    },
+    {
+        "id": 27,
+        "name": "el espejo",
+        "EN": "mirror",
+        "género": "masculino"
+    },
+    {
+        "id": 28,
+        "name": "el futuro",
+        "EN": "future",
+        "género": "masculino"
+    },
+    {
+        "id": 29,
+        "name": "el gobierno",
+        "EN": "government",
+        "género": "masculino"
+    },
+    {
+        "id": 30,
+        "name": "el hombre",
+        "EN": "man",
+        "género": "masculino"
+    },
+    {
+        "id": 31,
+        "name": "el hospital",
+        "EN": "hospital",
+        "género": "masculino"
+    },
+    {
+        "id": 32,
+        "name": "el idioma",
+        "EN": "language",
+        "género": "masculino"
+    },
+    {
+        "id": 33,
+        "name": "el invierno",
+        "EN": "winter",
+        "género": "masculino"
+    },
+    {
+        "id": 34,
+        "name": "el jardín",
+        "EN": "garden",
+        "género": "masculino"
+    },
+    {
+        "id": 35,
+        "name": "el jueves",
+        "EN": "Thursday",
+        "género": "masculino"
+    },
+    {
+        "id": 36,
+        "name": "el juguete",
+        "EN": "toy",
+        "género": "masculino"
+    },
+    {
+        "id": 37,
+        "name": "el lago",
+        "EN": "lake",
+        "género": "masculino"
+    },
+    {
+        "id": 38,
+        "name": "el libro",
+        "EN": "book",
+        "género": "masculino"
+    },
+    {
+        "id": 39,
+        "name": "el lunes",
+        "EN": "Monday",
+        "género": "masculino"
+    },
+    {
+        "id": 40,
+        "name": "el mapa",
+        "EN": "map",
+        "género": "masculino"
+    },
+    {
+        "id": 41,
+        "name": "el martes",
+        "EN": "Tuesday",
+        "género": "masculino"
+    },
+    {
+        "id": 42,
+        "name": "el matrimonio",
+        "EN": "marriage",
+        "género": "masculino"
+    },
+    {
+        "id": 43,
+        "name": "el mensaje",
+        "EN": "message",
+        "género": "masculino"
+    },
+    {
+        "id": 44,
+        "name": "el mes",
+        "EN": "month",
+        "género": "masculino"
+    },
+    {
+        "id": 45,
+        "name": "el miércoles",
+        "EN": "Wednesday",
+        "género": "masculino"
+    },
+    {
+        "id": 46,
+        "name": "el momento",
+        "EN": "moment",
+        "género": "masculino"
+    },
+    {
+        "id": 47,
+        "name": "el mundo",
+        "EN": "world",
+        "género": "masculino"
+    },
+    {
+        "id": 48,
+        "name": "el norte",
+        "EN": "north",
+        "género": "masculino"
+    },
+    {
+        "id": 49,
+        "name": "el océano",
+        "EN": "ocean",
+        "género": "masculino"
+    },
+    {
+        "id": 50,
+        "name": "el ordenador",
+        "EN": "computer",
+        "género": "masculino"
+    },
+    {
+        "id": 51,
+        "name": "el pan",
+        "EN": "bread",
+        "género": "masculino"
+    },
+    {
+        "id": 52,
+        "name": "el papel",
+        "EN": "paper",
+        "género": "masculino"
+    },
+    {
+        "id": 53,
+        "name": "el pelo",
+        "EN": "hair",
+        "género": "masculino"
+    },
+    {
+        "id": 54,
+        "name": "el periódico",
+        "EN": "newspaper",
+        "género": "masculino"
+    },
+    {
+        "id": 55,
+        "name": "el piso",
+        "EN": "floor",
+        "género": "masculino"
+    },
+    {
+        "id": 56,
+        "name": "el plato",
+        "EN": "plate",
+        "género": "masculino"
+    },
+    {
+        "id": 57,
+        "name": "el precio",
+        "EN": "price",
+        "género": "masculino"
+    },
+    {
+        "id": 58,
+        "name": "el problema",
+        "EN": "problem",
+        "género": "masculino"
+    },
+    {
+        "id": 59,
+        "name": "el pueblo",
+        "EN": "town",
+        "género": "masculino"
+    },
+    {
+        "id": 60,
+        "name": "el reloj",
+        "EN": "clock",
+        "género": "masculino"
+    },
+    {
+        "id": 61,
+        "name": "el río",
+        "EN": "river",
+        "género": "masculino"
+    },
+    {
+        "id": 62,
+        "name": "el sofá",
+        "EN": "sofa",
+        "género": "masculino"
+    },
+    {
+        "id": 63,
+        "name": "el sol",
+        "EN": "sun",
+        "género": "masculino"
+    },
+    {
+        "id": 64,
+        "name": "el sueño",
+        "EN": "dream",
+        "género": "masculino"
+    },
+    {
+        "id": 65,
+        "name": "el supermercado",
+        "EN": "supermarket",
+        "género": "masculino"
+    },
+    {
+        "id": 66,
+        "name": "el sur",
+        "EN": "south",
+        "género": "masculino"
+    },
+    {
+        "id": 67,
+        "name": "el sábado",
+        "EN": "Saturday",
+        "género": "masculino"
+    },
+    {
+        "id": 68,
+        "name": "el tenedor",
+        "EN": "fork",
+        "género": "masculino"
+    },
+    {
+        "id": 69,
+        "name": "el tiempo",
+        "EN": "weather",
+        "género": "masculino"
+    },
+    {
+        "id": 70,
+        "name": "el trabajo",
+        "EN": "work",
+        "género": "masculino"
+    },
+    {
+        "id": 71,
+        "name": "el té",
+        "EN": "tea",
+        "género": "masculino"
+    },
+    {
+        "id": 72,
+        "name": "el vaso",
+        "EN": "glass",
+        "género": "masculino"
+    },
+    {
+        "id": 73,
+        "name": "el vecino",
+        "EN": "neighbor",
+        "género": "masculino"
+    },
+    {
+        "id": 74,
+        "name": "el verano",
+        "EN": "summer",
+        "género": "masculino"
+    },
+    {
+        "id": 75,
+        "name": "el viaje",
+        "EN": "trip",
+        "género": "masculino"
+    },
+    {
+        "id": 76,
+        "name": "el viernes",
+        "EN": "Friday",
+        "género": "masculino"
+    },
+    {
+        "id": 77,
+        "name": "el árbol",
+        "EN": "tree",
+        "género": "masculino"
+    },
+    {
+        "id": 78,
+        "name": "la alfombra",
+        "EN": "rug",
+        "género": "femenino"
+    },
+    {
+        "id": 79,
+        "name": "la almohada",
+        "EN": "pillow",
+        "género": "femenino"
+    },
+    {
+        "id": 80,
+        "name": "la bebida",
+        "EN": "drink",
+        "género": "femenino"
+    },
+    {
+        "id": 81,
+        "name": "la calle",
+        "EN": "street",
+        "género": "femenino"
+    },
+    {
+        "id": 82,
+        "name": "la cama",
+        "EN": "bed",
+        "género": "femenino"
+    },
+    {
+        "id": 83,
+        "name": "la canción",
+        "EN": "song",
+        "género": "femenino"
+    },
+    {
+        "id": 84,
+        "name": "la cara",
+        "EN": "face",
+        "género": "femenino"
+    },
+    {
+        "id": 85,
+        "name": "la carne",
+        "EN": "meat",
+        "género": "femenino"
+    },
+    {
+        "id": 86,
+        "name": "la carretera",
+        "EN": "highway",
+        "género": "femenino"
+    },
+    {
+        "id": 87,
+        "name": "la casa",
+        "EN": "house",
+        "género": "femenino"
+    },
+    {
+        "id": 88,
+        "name": "la cena",
+        "EN": "dinner",
+        "género": "femenino"
+    },
+    {
+        "id": 89,
+        "name": "la ciencia",
+        "EN": "science",
+        "género": "femenino"
+    },
+    {
+        "id": 90,
+        "name": "la clase",
+        "EN": "classroom",
+        "género": "femenino"
+    },
+    {
+        "id": 91,
+        "name": "la cocina",
+        "EN": "kitchen",
+        "género": "femenino"
+    },
+    {
+        "id": 92,
+        "name": "la comida",
+        "EN": "meal/food",
+        "género": "femenino"
+    },
+    {
+        "id": 93,
+        "name": "la costa",
+        "EN": "coast",
+        "género": "femenino"
+    },
+    {
+        "id": 94,
+        "name": "la cuchara",
+        "EN": "spoon",
+        "género": "femenino"
+    },
+    {
+        "id": 95,
+        "name": "la edad",
+        "EN": "age",
+        "género": "femenino"
+    },
+    {
+        "id": 96,
+        "name": "la escuela",
+        "EN": "school",
+        "género": "femenino"
+    },
+    {
+        "id": 97,
+        "name": "la estrella",
+        "EN": "star",
+        "género": "femenino"
+    },
+    {
+        "id": 98,
+        "name": "la familia",
+        "EN": "family",
+        "género": "femenino"
+    },
+    {
+        "id": 99,
+        "name": "la flor",
+        "EN": "flower",
+        "género": "femenino"
+    },
+    {
+        "id": 100,
+        "name": "la guerra",
+        "EN": "war",
+        "género": "femenino"
+    },
+    {
+        "id": 101,
+        "name": "la habitación",
+        "EN": "room",
+        "género": "femenino"
+    },
+    {
+        "id": 102,
+        "name": "la jarra",
+        "EN": "pitcher",
+        "género": "femenino"
+    },
+    {
+        "id": 103,
+        "name": "la leche",
+        "EN": "milk",
+        "género": "femenino"
+    },
+    {
+        "id": 104,
+        "name": "la lengua",
+        "EN": "tongue",
+        "género": "femenino"
+    },
+    {
+        "id": 105,
+        "name": "la ley",
+        "EN": "law",
+        "género": "femenino"
+    },
+    {
+        "id": 106,
+        "name": "la llave",
+        "EN": "key",
+        "género": "femenino"
+    },
+    {
+        "id": 107,
+        "name": "la luna",
+        "EN": "moon",
+        "género": "femenino"
+    },
+    {
+        "id": 108,
+        "name": "la luz",
+        "EN": "light",
+        "género": "femenino"
+    },
+    {
+        "id": 109,
+        "name": "la maestra",
+        "EN": "teacher (female)",
+        "género": "femenino"
+    },
+    {
+        "id": 110,
+        "name": "la manta",
+        "EN": "blanket",
+        "género": "femenino"
+    },
+    {
+        "id": 111,
+        "name": "la mesa",
+        "EN": "table",
+        "género": "femenino"
+    },
+    {
+        "id": 112,
+        "name": "la montaña",
+        "EN": "mountain",
+        "género": "femenino"
+    },
+    {
+        "id": 113,
+        "name": "la mujer",
+        "EN": "woman",
+        "género": "femenino"
+    },
+    {
+        "id": 114,
+        "name": "la noche",
+        "EN": "night",
+        "género": "femenino"
+    },
+    {
+        "id": 115,
+        "name": "la ola",
+        "EN": "wave",
+        "género": "femenino"
+    },
+    {
+        "id": 116,
+        "name": "la palabra",
+        "EN": "word",
+        "género": "femenino"
+    },
+    {
+        "id": 117,
+        "name": "la paz",
+        "EN": "peace",
+        "género": "femenino"
+    },
+    {
+        "id": 118,
+        "name": "la película",
+        "EN": "movie",
+        "género": "femenino"
+    },
+    {
+        "id": 119,
+        "name": "la persona",
+        "EN": "person",
+        "género": "femenino"
+    },
+    {
+        "id": 120,
+        "name": "la piel",
+        "EN": "skin",
+        "género": "femenino"
+    },
+    {
+        "id": 121,
+        "name": "la planta",
+        "EN": "plant",
+        "género": "femenino"
+    },
+    {
+        "id": 122,
+        "name": "la playa",
+        "EN": "beach",
+        "género": "femenino"
+    },
+    {
+        "id": 123,
+        "name": "la plaza",
+        "EN": "square",
+        "género": "femenino"
+    },
+    {
+        "id": 124,
+        "name": "la pregunta",
+        "EN": "question",
+        "género": "femenino"
+    },
+    {
+        "id": 125,
+        "name": "la primavera",
+        "EN": "spring",
+        "género": "femenino"
+    },
+    {
+        "id": 126,
+        "name": "la puerta",
+        "EN": "door",
+        "género": "femenino"
+    },
+    {
+        "id": 127,
+        "name": "la página",
+        "EN": "page",
+        "género": "femenino"
+    },
+    {
+        "id": 128,
+        "name": "la religión",
+        "EN": "religion",
+        "género": "femenino"
+    },
+    {
+        "id": 129,
+        "name": "la respuesta",
+        "EN": "answer",
+        "género": "femenino"
+    },
+    {
+        "id": 130,
+        "name": "la sal",
+        "EN": "salt",
+        "género": "femenino"
+    },
+    {
+        "id": 131,
+        "name": "la salud",
+        "EN": "health",
+        "género": "femenino"
+    },
+    {
+        "id": 132,
+        "name": "la sangre",
+        "EN": "blood",
+        "género": "femenino"
+    },
+    {
+        "id": 133,
+        "name": "la semana",
+        "EN": "week",
+        "género": "femenino"
+    },
+    {
+        "id": 134,
+        "name": "la serie",
+        "EN": "series",
+        "género": "femenino"
+    },
+    {
+        "id": 135,
+        "name": "la silla",
+        "EN": "chair",
+        "género": "femenino"
+    },
+    {
+        "id": 136,
+        "name": "la sorpresa",
+        "EN": "surprise",
+        "género": "femenino"
+    },
+    {
+        "id": 137,
+        "name": "la sábana",
+        "EN": "bedsheet",
+        "género": "femenino"
+    },
+    {
+        "id": 138,
+        "name": "la tienda",
+        "EN": "store",
+        "género": "femenino"
+    },
+    {
+        "id": 139,
+        "name": "la vecina",
+        "EN": "neighbor",
+        "género": "femenino"
+    },
+    {
+        "id": 140,
+        "name": "la ventana",
+        "EN": "window",
+        "género": "femenino"
+    },
+    {
+        "id": 141,
+        "name": "la vida",
+        "EN": "life",
+        "género": "femenino"
+    }
+]
