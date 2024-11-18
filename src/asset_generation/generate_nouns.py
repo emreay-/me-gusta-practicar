@@ -12,7 +12,7 @@ from typing import List, Optional, Dict
 from ai_backend import AIBackend
 from utils import dump_json_to_file
 
-from me_gusta_practicar.core.util import load_nouns_set, load_nouns_json, path_to_nouns
+from me_gusta_practicar.core.util import load_nouns_set, load_nouns_json, path_to_nouns, remove_article_and_make_lower
 
 def _get_prompt(noun):
     return """
@@ -52,11 +52,12 @@ def _parse_noun_info(info: str) -> Optional[Dict]:
     return None
 
 def _post_process_curated_nouns(nouns: Dict) -> List[Dict]:
-    name_to_noun = {i["name"]: i for i in nouns}
+    name_to_noun = {remove_article_and_make_lower(i["name"]): i for i in nouns}
     res = []
 
     for i, name in enumerate(sorted(name_to_noun.keys())):
         noun = name_to_noun[name]
+        noun["name"] = noun["name"].lower()
         noun["id"] = i
         res.append(noun)
     
@@ -64,7 +65,7 @@ def _post_process_curated_nouns(nouns: Dict) -> List[Dict]:
 
 def update_nouns_database():
     curated_nouns = load_nouns_json()
-    new_nouns = load_nouns_set().difference(set(i["name"] for i in curated_nouns))
+    new_nouns = load_nouns_set().difference(set(remove_article_and_make_lower(i["name"]) for i in curated_nouns))
 
     print(f"There are {len(new_nouns)} new words to be added to assets")
 

@@ -4,34 +4,32 @@ from collections import deque
 
 from typing import List
 
-from me_gusta_practicar.core.verbs import load_verbs, Verb
+from me_gusta_practicar.core.word import Word
+from me_gusta_practicar.core.prepositions import load_prepositions
 from me_gusta_practicar.practices.practice_base import PracticeBase
 from me_gusta_practicar.ui.display import Display
-from me_gusta_practicar.ui.settings import SettingItem, BoolSettingItem, StringSettingItem, SettingsInterface
+from me_gusta_practicar.ui.settings import StringSettingItem, SettingsInterface
 
-__all__ = ["VerbPractice"]
+__all__ = ["PrepositionPractice"]
 
-class VerbPractice(PracticeBase):
+class PrepositionPractice(PracticeBase):
     def __init__(self, display: Display):
         super().__init__(display)
 
-        self.verbs: List[Verb] = load_verbs()
+        self.prepositions: List[Word] = load_prepositions()
 
         self.settings_options = {
             "type": StringSettingItem(
                 name="type", default_value="From Spanish", allowed_values=["From Spanish", "From English"]
-            ),
-            "regulares": BoolSettingItem(name="regulares", default_value="True"),
-            "irregulares": BoolSettingItem(name="irregulares", default_value="True"),
-            "reflexivos": BoolSettingItem(name="reflexivos", default_value="True")
+            )
         }
 
         self.settings_interface = SettingsInterface(self.settings_options, self._display)
 
         self.instructions = [
             "Enter: Show translation",
-            "Right: Next verb",
-            "Left: Previous verb",
+            "Right: Next",
+            "Left: Previous",
             "Esc: Main menu"
         ]
 
@@ -40,36 +38,34 @@ class VerbPractice(PracticeBase):
 
         self.show_translation = False
         
-        self._select_verb()
+        self._select_preposition()
 
-    def _select_verb(self):
+    def _select_preposition(self):
         iterations = 0
         max_iterations = 20
 
         while iterations < max_iterations:
-            new_index = random.randint(0, len(self.verbs) - 1)
-            verb = self.verbs[new_index]
+            new_index = random.randint(0, len(self.nouns) - 1)
+            noun = self.nouns[new_index]
             iterations += 1
 
-            if self.settings_options["regulares"].value == "False" and verb.is_regular:
+            if self.settings_options["masculinos"].value == "False" and noun.gender == Gender.Masculine:
                 continue
-            if self.settings_options["irregulares"].value == "False" and not verb.is_regular:
-                continue
-            if self.settings_options["reflexivos"].value == "False" and verb.is_reflexive:
+            if self.settings_options["femeninas"].value == "False" and not noun.gender == Gender.Feminine:
                 continue
             
             self.index_history.append(self.current_index)
             self.current_index = new_index
-
+            
             break
-
-    def _previous_verb(self):
+    
+    def _previous_noun(self):
         if self.index_history:
             self.current_index = self.index_history.pop()
 
     @property
-    def _current_verb(self) -> Verb:
-        return self.verbs[self.current_index]
+    def _current_noun(self) -> Noun:
+        return self.nouns[self.current_index]
 
     def run(self):
         running = True
@@ -81,18 +77,18 @@ class VerbPractice(PracticeBase):
                     if event.key == pygame.K_RETURN:
                         self.show_translation = True
                     if event.key == pygame.K_RIGHT:
-                        self._select_verb()
+                        self._select_noun()
                         self.show_translation = False
                     if event.key == pygame.K_LEFT:
-                        self._previous_verb()
-                        self.show_translation = False
+                        self._previous_noun()
+                        self.show_translation = False    
                     if event.key == pygame.K_ESCAPE:
                         return  # Return to main menu
 
             self._display.screen.fill((255, 255, 255))
 
-            source = self._current_verb.name if self.settings_options["type"].value == "From Spanish" else self._current_verb.EN
-            translation = self._current_verb.EN if self.settings_options["type"].value == "From Spanish" else self._current_verb.name
+            source = self._current_noun.name if self.settings_options["type"].value == "From Spanish" else self._current_noun.EN
+            translation = self._current_noun.EN if self.settings_options["type"].value == "From Spanish" else self._current_noun.name
 
             self._display.add_text_center(source)
 

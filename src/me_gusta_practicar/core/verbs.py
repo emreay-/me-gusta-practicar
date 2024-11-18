@@ -1,14 +1,14 @@
 import json
 from typing import List, Dict
 
+from me_gusta_practicar.core.word import Word
 from me_gusta_practicar.core.util import load_verbs_json
 
-class Verb:
+class Verb(Word):
     def __init__(self, id: int, name: str, EN: str, is_regular: bool, is_reflexive: bool, 
                  conjugation: Dict[str, Dict[str, List[str]]]):
+        super().__init__(name, EN)
         self.id = id
-        self.name = name
-        self.EN = EN
         self.is_regular = is_regular
         self.is_reflexive = is_reflexive
         self.conjugation = conjugation

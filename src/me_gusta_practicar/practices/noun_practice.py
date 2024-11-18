@@ -1,5 +1,6 @@
 import pygame
 import random
+from collections import deque
 
 from typing import List
 
@@ -28,11 +29,14 @@ class NounPractice(PracticeBase):
 
         self.instructions = [
             "Enter: Show translation",
-            "Space: Next noun",
+            "Right: Next noun",
+            "Left: Previous noun",
             "Esc: Main menu"
         ]
 
         self.current_index = 0
+        self.index_history = deque(maxlen=10)
+
         self.show_translation = False
         
         self._select_noun()
@@ -42,15 +46,23 @@ class NounPractice(PracticeBase):
         max_iterations = 20
 
         while iterations < max_iterations:
-            self.current_index = random.randint(0, len(self.nouns) - 1)
-            noun = self.nouns[self.current_index]
+            new_index = random.randint(0, len(self.nouns) - 1)
+            noun = self.nouns[new_index]
             iterations += 1
 
             if self.settings_options["masculinos"].value == "False" and noun.gender == Gender.Masculine:
                 continue
             if self.settings_options["femeninas"].value == "False" and not noun.gender == Gender.Feminine:
                 continue
+            
+            self.index_history.append(self.current_index)
+            self.current_index = new_index
+            
             break
+    
+    def _previous_noun(self):
+        if self.index_history:
+            self.current_index = self.index_history.pop()
 
     @property
     def _current_noun(self) -> Noun:
@@ -65,9 +77,12 @@ class NounPractice(PracticeBase):
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_RETURN:
                         self.show_translation = True
-                    if event.key == pygame.K_SPACE:
+                    if event.key == pygame.K_RIGHT:
                         self._select_noun()
                         self.show_translation = False
+                    if event.key == pygame.K_LEFT:
+                        self._previous_noun()
+                        self.show_translation = False    
                     if event.key == pygame.K_ESCAPE:
                         return  # Return to main menu
 

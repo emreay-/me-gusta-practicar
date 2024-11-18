@@ -2,17 +2,17 @@ import json
 from typing import List, Dict
 from enum import Enum
 
+from me_gusta_practicar.core.word import Word
 from me_gusta_practicar.core.util import load_nouns_json
 
 class Gender(Enum):
     Masculine = 1
     Feminine = 2
 
-class Noun:
+class Noun(Word):
     def __init__(self, id: int, name: str, EN: str, gender: Gender):
+        super().__init__(name, EN)
         self.id = id
-        self.name = name
-        self.EN = EN
         self.gender = gender
 
     @staticmethod

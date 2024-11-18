@@ -38,7 +38,7 @@ El río
 La persona
 El Cuerpo
 El corazón
-El sangre
+la sangre
 La cara
 El azúcar
 La sal
@@ -73,8 +73,9 @@ La llave
 El gobierno
 La ley
 La Religión
-El jardin
-La danza/ El Baile
+El jardín
+La danza
+El Baile
 La tienda
 El verano
 El invierno
@@ -143,3 +144,225 @@ El jueves
 El viernes
 El sábado
 El domingo
+el tiempo
+el año
+el día
+la cosa
+el hombre
+la mujer
+la vida
+la mano
+la parte
+el niño
+la niña
+el ojo
+el mundo
+la hora
+la vez
+la casa
+el camino
+el amigo
+la amiga
+el amor
+el trabajo
+la palabra
+el lugar
+la persona
+el problema
+el padre
+la madre
+el país
+el dinero
+la mano
+la noche
+el punto
+el tipo
+la forma
+la ciudad
+el agua
+el nombre
+la parte
+el grupo
+la hora
+la idea
+la empresa
+el número
+la calle
+el ejemplo
+el sistema
+el gobierno
+la historia
+el arte
+el caso
+el hecho
+el mes
+la ley
+la forma
+el desarrollo
+el proceso
+el papel
+el mercado
+la ley
+la palabra
+el interés
+la información
+la película
+la calle
+la situación
+la cuenta
+el corazón
+la mañana
+el derecho
+la organización
+el libro
+el oeste
+el sur
+el este
+el norte
+la imagen
+la voz
+la guerra
+la escuela
+el juego
+el resultado
+la música
+el proyecto
+el espacio
+la tierra
+la tabla
+el interés
+el pie
+la comunidad
+el sitio
+la nota
+el producto
+el doctor
+la doctora
+el hospital
+la ventana
+el valor
+la decisión
+el sistema
+el período
+el sentido
+el servicio
+el cambio
+bocadillo
+batido
+helado
+espinaca
+sandía
+mantequilla
+seco
+salud
+bastante
+verano
+invierno
+otoño
+primavera
+contestar
+siguiente
+cuál
+cuando
+sopa
+crudo
+arroz
+champiñón
+cebolla
+debajo
+alimento
+frambuesa
+plátano
+rúcula
+zanahoria
+guisante
+ajo
+cangrejo
+bacalao
+morcilla
+sangre
+graso
+cordero
+cabra
+vaca
+Pimentón rojo
+relleno
+joven
+guapa
+rizado
+rubio
+liso
+alta
+gordo
+delgado
+bigote
+perilla
+bajo
+feo
+calvo
+cantaño
+moreno
+pelirrojo
+gafas
+nariz
+corbata
+cuero
+casi
+chaleco
+pantalones
+camisa
+camiseta
+jersey
+sudadera
+abrigo
+camisón
+pijama
+falda
+blusa
+chándal
+vestido
+cazadora
+suéter
+traje
+americana
+gabardina
+vaqueros
+calzoncillos
+calcetines
+bragas
+sujetador
+medias
+pajarita
+corbata
+pañuelo
+gorro
+gafas de sol
+bufanda
+guantes
+bañador
+cinturón
+gorra
+sombrero
+botas
+zapatos
+zapatillas
+zapatos de tacón
+chanclas
+sandalias
+pasta de dientes
+crema solar
+champú
+secador de pelo
+gel de bañador
+biquini
+ropa interior
+toalla de playa
+carné de identidad
+dinero
+tarjeta de crédito
+cepillo de dientes
+cepillo
+bigote
+barba
+gafas
+ojo
