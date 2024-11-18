@@ -27,7 +27,7 @@ class PrepositionPractice(PracticeBase):
         self.settings_interface = SettingsInterface(self.settings_options, self._display)
 
         self.instructions = [
-            "Enter: Show translation",
+            "Enter: Show translation / Next",
             "Right: Next",
             "Left: Previous",
             "Esc: Main menu"
@@ -37,7 +37,8 @@ class PrepositionPractice(PracticeBase):
         self.index_history = deque(maxlen=10)
 
         self.show_translation = False
-        
+        self.enter_state = 0
+
         self._select_preposition()
 
     def _select_preposition(self):
@@ -75,7 +76,12 @@ class PrepositionPractice(PracticeBase):
                     running = False
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_RETURN:
-                        self.show_translation = True
+                        self.enter_state = (self.enter_state + 1) % 2
+                        if self.enter_state == 1:
+                            self.show_translation = True
+                        else:
+                            self._select_noun()
+                            self.show_translation = False
                     if event.key == pygame.K_RIGHT:
                         self._select_noun()
                         self.show_translation = False

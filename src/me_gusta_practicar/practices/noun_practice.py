@@ -28,7 +28,7 @@ class NounPractice(PracticeBase):
         self.settings_interface = SettingsInterface(self.settings_options, self._display)
 
         self.instructions = [
-            "Enter: Show translation",
+            "Enter: Show translation / next noun",
             "Right: Next noun",
             "Left: Previous noun",
             "Esc: Main menu"
@@ -36,8 +36,11 @@ class NounPractice(PracticeBase):
 
         self.current_index = 0
         self.index_history = deque(maxlen=10)
+        self.index_coverage = set()
+        self.current_coverage = 0
 
         self.show_translation = False
+        self.enter_state = 0
         
         self._select_noun()
 
@@ -57,6 +60,8 @@ class NounPractice(PracticeBase):
             
             self.index_history.append(self.current_index)
             self.current_index = new_index
+            self.index_coverage.add(self.current_index)
+            self.current_coverage = len(self.index_coverage) / len(self.nouns) * 100.0
             
             break
     
@@ -76,7 +81,12 @@ class NounPractice(PracticeBase):
                     running = False
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_RETURN:
-                        self.show_translation = True
+                        self.enter_state = (self.enter_state + 1) % 2
+                        if self.enter_state == 1:
+                            self.show_translation = True
+                        else:
+                            self._select_noun()
+                            self.show_translation = False    
                     if event.key == pygame.K_RIGHT:
                         self._select_noun()
                         self.show_translation = False
@@ -98,6 +108,8 @@ class NounPractice(PracticeBase):
 
             for i, instruction in enumerate(self.instructions):
                 self._display.add_text(instruction, "S", (0, 0, 0), (10, 10 + i * 30))
+            
+            self._display.add_text(f"{self.current_coverage:.2f} %", "S", (125, 125, 125), (self._display.screen.get_width() - 55, 10))
 
             pygame.display.flip()
 
