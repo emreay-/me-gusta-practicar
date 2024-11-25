@@ -84,7 +84,7 @@ class VerbPractice(PracticeBase):
                         if self.enter_state == 1:
                             self.show_translation = True
                         else:
-                            self._select_noun()
+                            self._select_verb()
                             self.show_translation = False
                     if event.key == pygame.K_RIGHT:
                         self._select_verb()
@@ -97,8 +97,8 @@ class VerbPractice(PracticeBase):
 
             self._display.screen.fill((255, 255, 255))
 
-            source = self._current_verb.name if self.settings_options["type"].value == "From Spanish" else self._current_verb.EN
-            translation = self._current_verb.EN if self.settings_options["type"].value == "From Spanish" else self._current_verb.name
+            source = self._current_verb.in_spanish if self.settings_options["type"].value == "From Spanish" else self._current_verb.in_english
+            translation = self._current_verb.in_english if self.settings_options["type"].value == "From Spanish" else self._current_verb.in_spanish
 
             self._display.add_text_center(source)
 

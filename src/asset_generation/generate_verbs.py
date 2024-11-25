@@ -21,8 +21,8 @@ I want to create a json structure for Spanish verbs as below:
 
 {
     "id": 0,
-    "name": "abandonar",
-    "EN": "to abandon",
+    "in_spanish": "abandonar",
+    "in_english": "to abandon",
     "is_regular": true,
     "is_reflexive": false,
     "conjugation": {
@@ -51,28 +51,19 @@ Please curate this structure for verb """ + verb
 
 def _get_verb_info(ai_backend: AIBackend, verb: str) -> Optional[str]:
     return ai_backend.ask(_get_prompt(verb))
-#     return """
-# {
-#     "id": 0,
-#     "name": "A",
-#     "EN": "A",
-#     "is_regular": false,
-#     "is_reflexive": false,
-#     "conjugation": ""
-# }
-# """
+
 
 def _has_entity(data: Dict, entity: str) -> bool:
     return entity in data
 
 def _parse_verb_info(info: str) -> Optional[Dict]:
     data = json.loads(info)
-    if all([_has_entity(data, i) for i in ["id", "name", "EN", "is_regular", "is_reflexive", "conjugation"]]):
+    if all([_has_entity(data, i) for i in ["in_spanish", "in_english", "is_regular", "is_reflexive", "conjugation"]]):
         return data
     return None
 
 def _post_process_curated_verbs(verbs: Dict) -> List[Dict]:
-    name_to_verb = {i["name"]: i for i in verbs}
+    name_to_verb = {i["in_spanish"]: i for i in verbs}
     res = []
 
     for i, name in enumerate(sorted(name_to_verb.keys())):
@@ -85,7 +76,7 @@ def _post_process_curated_verbs(verbs: Dict) -> List[Dict]:
 
 def update_verbs_database():
     curated_verbs = load_verbs_json()
-    new_verbs = load_verbs_set().difference(set(i["name"] for i in curated_verbs))
+    new_verbs = load_verbs_set().difference(set(i["in_spanish"] for i in curated_verbs))
 
     print(f"There are {len(new_verbs)} new words to be added to assets")
 

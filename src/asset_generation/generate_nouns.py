@@ -20,8 +20,8 @@ I want to create a json structure for Spanish nouns as below:
 
 {
     "id": 0,
-    "name": "la cocina",
-    "EN": "kitchen",
+    "in_spanish": "la cocina",
+    "in_english": "kitchen",
     "género": "femenino"
 }
 
@@ -31,33 +31,24 @@ Please curate this structure for noun """ + noun
 
 def _get_noun_info(ai_backend: AIBackend, noun: str) -> Optional[str]:
     return ai_backend.ask(_get_prompt(noun))
-#     return """
-# {
-#     "id": 0,
-#     "name": "A",
-#     "EN": "A",
-#     "is_regular": false,
-#     "is_reflexive": false,
-#     "conjugation": ""
-# }
-# """
+
 
 def _has_entity(data: Dict, entity: str) -> bool:
     return entity in data
 
 def _parse_noun_info(info: str) -> Optional[Dict]:
     data = json.loads(info)
-    if all([_has_entity(data, i) for i in ["id", "name", "EN", "género"]]):
+    if all([_has_entity(data, i) for i in ["in_spanish", "in_english", "género"]]):
         return data
     return None
 
 def _post_process_curated_nouns(nouns: Dict) -> List[Dict]:
-    name_to_noun = {remove_article_and_make_lower(i["name"]): i for i in nouns}
+    name_to_noun = {remove_article_and_make_lower(i["in_spanish"]): i for i in nouns}
     res = []
 
     for i, name in enumerate(sorted(name_to_noun.keys())):
         noun = name_to_noun[name]
-        noun["name"] = noun["name"].lower()
+        noun["in_spanish"] = noun["in_spanish"].lower()
         noun["id"] = i
         res.append(noun)
     
@@ -65,7 +56,7 @@ def _post_process_curated_nouns(nouns: Dict) -> List[Dict]:
 
 def update_nouns_database():
     curated_nouns = load_nouns_json()
-    new_nouns = load_nouns_set().difference(set(remove_article_and_make_lower(i["name"]) for i in curated_nouns))
+    new_nouns = load_nouns_set().difference(set(remove_article_and_make_lower(i["in_spanish"]) for i in curated_nouns))
 
     print(f"There are {len(new_nouns)} new words to be added to assets")
 

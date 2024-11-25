@@ -98,8 +98,8 @@ class NounPractice(PracticeBase):
 
             self._display.screen.fill((255, 255, 255))
 
-            source = self._current_noun.name if self.settings_options["type"].value == "From Spanish" else self._current_noun.EN
-            translation = self._current_noun.EN if self.settings_options["type"].value == "From Spanish" else self._current_noun.name
+            source = self._current_noun.in_spanish if self.settings_options["type"].value == "From Spanish" else self._current_noun.in_english
+            translation = self._current_noun.in_english if self.settings_options["type"].value == "From Spanish" else self._current_noun.in_spanish
 
             self._display.add_text_center(source)
 

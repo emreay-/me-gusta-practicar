@@ -10,22 +10,20 @@ class Gender(Enum):
     Feminine = 2
 
 class Noun(Word):
-    def __init__(self, id: int, name: str, EN: str, gender: Gender):
-        super().__init__(name, EN)
-        self.id = id
+    def __init__(self, in_spanish: str, in_english: str, gender: Gender):
+        super().__init__(in_spanish, in_english, "noun")
         self.gender = gender
 
     @staticmethod
     def from_json(input: json) -> 'Noun':
         return Noun(
-            id=input["id"],
-            name=input["name"],
-            EN=input["EN"],
+            in_spanish=input["in_spanish"],
+            in_english=input["in_english"],
             gender=Gender.Masculine if input["género"].lower() == "masculine" else Gender.Feminine,
         )
 
     def __repr__(self):
-        return f"Noun(id={self.id}, name='{self.name}', EN='{self.EN}', género={self.gender}"
+        return f"Noun(id={self.id}, in_spanish='{self.in_spanish}', in_english='{self.in_english}', género={self.gender}"
 
 def load_nouns() -> List[Noun]:
     nouns = []

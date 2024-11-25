@@ -1,8 +1,8 @@
 [
     {
         "id": 0,
-        "name": "abandonar",
-        "EN": "to abandon",
+        "in_spanish": "abandonar",
+        "in_english": "to abandon",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -96,8 +96,8 @@
     },
     {
         "id": 1,
-        "name": "abrir",
-        "EN": "to open",
+        "in_spanish": "abrir",
+        "in_english": "to open",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -191,8 +191,8 @@
     },
     {
         "id": 2,
-        "name": "acabar",
-        "EN": "to finish",
+        "in_spanish": "acabar",
+        "in_english": "to finish",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -286,8 +286,8 @@
     },
     {
         "id": 3,
-        "name": "aceptar",
-        "EN": "to accept",
+        "in_spanish": "aceptar",
+        "in_english": "to accept",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -381,8 +381,8 @@
     },
     {
         "id": 4,
-        "name": "acompañar",
-        "EN": "to accompany",
+        "in_spanish": "acompañar",
+        "in_english": "to accompany",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -476,8 +476,8 @@
     },
     {
         "id": 5,
-        "name": "admitir",
-        "EN": "to admit",
+        "in_spanish": "admitir",
+        "in_english": "to admit",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -571,8 +571,8 @@
     },
     {
         "id": 6,
-        "name": "alcanzar",
-        "EN": "to reach",
+        "in_spanish": "alcanzar",
+        "in_english": "to reach",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -666,8 +666,8 @@
     },
     {
         "id": 7,
-        "name": "almorzar",
-        "EN": "to have lunch",
+        "in_spanish": "almorzar",
+        "in_english": "to have lunch",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -761,8 +761,8 @@
     },
     {
         "id": 8,
-        "name": "alquilar",
-        "EN": "to rent",
+        "in_spanish": "alquilar",
+        "in_english": "to rent",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -856,8 +856,8 @@
     },
     {
         "id": 9,
-        "name": "amar",
-        "EN": "to love",
+        "in_spanish": "amar",
+        "in_english": "to love",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -951,8 +951,8 @@
     },
     {
         "id": 10,
-        "name": "analizar",
-        "EN": "to analyze",
+        "in_spanish": "analizar",
+        "in_english": "to analyze",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1046,8 +1046,8 @@
     },
     {
         "id": 11,
-        "name": "andar",
-        "EN": "to walk",
+        "in_spanish": "andar",
+        "in_english": "to walk",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1141,8 +1141,8 @@
     },
     {
         "id": 12,
-        "name": "anunciar",
-        "EN": "to announce",
+        "in_spanish": "anunciar",
+        "in_english": "to announce",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1236,8 +1236,8 @@
     },
     {
         "id": 13,
-        "name": "apagar",
-        "EN": "to turn off",
+        "in_spanish": "apagar",
+        "in_english": "to turn off",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1331,8 +1331,8 @@
     },
     {
         "id": 14,
-        "name": "aparecer",
-        "EN": "to appear",
+        "in_spanish": "aparecer",
+        "in_english": "to appear",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -1426,8 +1426,8 @@
     },
     {
         "id": 15,
-        "name": "aplicar",
-        "EN": "to apply",
+        "in_spanish": "aplicar",
+        "in_english": "to apply",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1521,8 +1521,8 @@
     },
     {
         "id": 16,
-        "name": "apoyar",
-        "EN": "to support",
+        "in_spanish": "apoyar",
+        "in_english": "to support",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1616,8 +1616,8 @@
     },
     {
         "id": 17,
-        "name": "aprender",
-        "EN": "to learn",
+        "in_spanish": "aprender",
+        "in_english": "to learn",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1711,8 +1711,8 @@
     },
     {
         "id": 18,
-        "name": "arreglar",
-        "EN": "to arrange",
+        "in_spanish": "arreglar",
+        "in_english": "to arrange",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1806,8 +1806,8 @@
     },
     {
         "id": 19,
-        "name": "asegurar",
-        "EN": "to ensure/to secure",
+        "in_spanish": "asegurar",
+        "in_english": "to ensure/to secure",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1901,8 +1901,8 @@
     },
     {
         "id": 20,
-        "name": "asistir",
-        "EN": "to attend",
+        "in_spanish": "asistir",
+        "in_english": "to attend",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -1996,8 +1996,8 @@
     },
     {
         "id": 21,
-        "name": "aumentar",
-        "EN": "to increase",
+        "in_spanish": "aumentar",
+        "in_english": "to increase",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2091,8 +2091,8 @@
     },
     {
         "id": 22,
-        "name": "avanzar",
-        "EN": "to advance",
+        "in_spanish": "avanzar",
+        "in_english": "to advance",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2186,8 +2186,8 @@
     },
     {
         "id": 23,
-        "name": "avisar",
-        "EN": "to notify, to warn",
+        "in_spanish": "avisar",
+        "in_english": "to notify, to warn",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2281,8 +2281,8 @@
     },
     {
         "id": 24,
-        "name": "ayudar",
-        "EN": "to help",
+        "in_spanish": "ayudar",
+        "in_english": "to help",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2376,8 +2376,8 @@
     },
     {
         "id": 25,
-        "name": "añadir",
-        "EN": "to add",
+        "in_spanish": "añadir",
+        "in_english": "to add",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2471,8 +2471,8 @@
     },
     {
         "id": 26,
-        "name": "bailar",
-        "EN": "to dance",
+        "in_spanish": "bailar",
+        "in_english": "to dance",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2566,8 +2566,8 @@
     },
     {
         "id": 27,
-        "name": "bajar",
-        "EN": "to lower",
+        "in_spanish": "bajar",
+        "in_english": "to lower",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2661,8 +2661,8 @@
     },
     {
         "id": 28,
-        "name": "bañarse",
-        "EN": "to bathe oneself",
+        "in_spanish": "bañarse",
+        "in_english": "to bathe oneself",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -2756,8 +2756,8 @@
     },
     {
         "id": 29,
-        "name": "beber",
-        "EN": "to drink",
+        "in_spanish": "beber",
+        "in_english": "to drink",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2851,8 +2851,8 @@
     },
     {
         "id": 30,
-        "name": "buscar",
-        "EN": "to search",
+        "in_spanish": "buscar",
+        "in_english": "to search",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -2946,8 +2946,8 @@
     },
     {
         "id": 31,
-        "name": "caer",
-        "EN": "to fall",
+        "in_spanish": "caer",
+        "in_english": "to fall",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -3041,8 +3041,8 @@
     },
     {
         "id": 32,
-        "name": "calcular",
-        "EN": "to calculate",
+        "in_spanish": "calcular",
+        "in_english": "to calculate",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3136,8 +3136,8 @@
     },
     {
         "id": 33,
-        "name": "cambiar",
-        "EN": "to change",
+        "in_spanish": "cambiar",
+        "in_english": "to change",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3231,8 +3231,8 @@
     },
     {
         "id": 34,
-        "name": "caminar",
-        "EN": "to walk",
+        "in_spanish": "caminar",
+        "in_english": "to walk",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3326,8 +3326,8 @@
     },
     {
         "id": 35,
-        "name": "cantar",
-        "EN": "to sing",
+        "in_spanish": "cantar",
+        "in_english": "to sing",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3421,8 +3421,8 @@
     },
     {
         "id": 36,
-        "name": "celebrar",
-        "EN": "to celebrate",
+        "in_spanish": "celebrar",
+        "in_english": "to celebrate",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3516,8 +3516,8 @@
     },
     {
         "id": 37,
-        "name": "cenar",
-        "EN": "to have dinner",
+        "in_spanish": "cenar",
+        "in_english": "to have dinner",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3611,8 +3611,8 @@
     },
     {
         "id": 38,
-        "name": "cerrar",
-        "EN": "to close",
+        "in_spanish": "cerrar",
+        "in_english": "to close",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -3706,8 +3706,8 @@
     },
     {
         "id": 39,
-        "name": "cocinar",
-        "EN": "to cook",
+        "in_spanish": "cocinar",
+        "in_english": "to cook",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3801,8 +3801,8 @@
     },
     {
         "id": 40,
-        "name": "coger",
-        "EN": "to take",
+        "in_spanish": "coger",
+        "in_english": "to take",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -3896,8 +3896,8 @@
     },
     {
         "id": 41,
-        "name": "colgar",
-        "EN": "to hang",
+        "in_spanish": "colgar",
+        "in_english": "to hang",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -3991,8 +3991,8 @@
     },
     {
         "id": 42,
-        "name": "comenzar",
-        "EN": "to start",
+        "in_spanish": "comenzar",
+        "in_english": "to start",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -4086,8 +4086,8 @@
     },
     {
         "id": 43,
-        "name": "comer",
-        "EN": "to eat",
+        "in_spanish": "comer",
+        "in_english": "to eat",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -4181,8 +4181,8 @@
     },
     {
         "id": 44,
-        "name": "compartir",
-        "EN": "to share",
+        "in_spanish": "compartir",
+        "in_english": "to share",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -4276,8 +4276,8 @@
     },
     {
         "id": 45,
-        "name": "comprar",
-        "EN": "to buy",
+        "in_spanish": "comprar",
+        "in_english": "to buy",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -4371,8 +4371,8 @@
     },
     {
         "id": 46,
-        "name": "comprender",
-        "EN": "to understand",
+        "in_spanish": "comprender",
+        "in_english": "to understand",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -4466,8 +4466,8 @@
     },
     {
         "id": 47,
-        "name": "comunicar",
-        "EN": "to communicate",
+        "in_spanish": "comunicar",
+        "in_english": "to communicate",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -4561,8 +4561,8 @@
     },
     {
         "id": 48,
-        "name": "concluir",
-        "EN": "to conclude",
+        "in_spanish": "concluir",
+        "in_english": "to conclude",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -4656,8 +4656,8 @@
     },
     {
         "id": 49,
-        "name": "conectar",
-        "EN": "to connect",
+        "in_spanish": "conectar",
+        "in_english": "to connect",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -4751,8 +4751,8 @@
     },
     {
         "id": 50,
-        "name": "confirmar",
-        "EN": "to confirm",
+        "in_spanish": "confirmar",
+        "in_english": "to confirm",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -4846,8 +4846,8 @@
     },
     {
         "id": 51,
-        "name": "conocer",
-        "EN": "to know",
+        "in_spanish": "conocer",
+        "in_english": "to know",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -4941,8 +4941,8 @@
     },
     {
         "id": 52,
-        "name": "conocerse",
-        "EN": "to meet oneself",
+        "in_spanish": "conocerse",
+        "in_english": "to meet oneself",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -5036,8 +5036,8 @@
     },
     {
         "id": 53,
-        "name": "conseguir",
-        "EN": "to achieve",
+        "in_spanish": "conseguir",
+        "in_english": "to achieve",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5131,8 +5131,8 @@
     },
     {
         "id": 54,
-        "name": "conservar",
-        "EN": "to conserve",
+        "in_spanish": "conservar",
+        "in_english": "to conserve",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5226,8 +5226,8 @@
     },
     {
         "id": 55,
-        "name": "considerar",
-        "EN": "to consider",
+        "in_spanish": "considerar",
+        "in_english": "to consider",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5321,8 +5321,8 @@
     },
     {
         "id": 56,
-        "name": "construir",
-        "EN": "to build",
+        "in_spanish": "construir",
+        "in_english": "to build",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -5416,8 +5416,8 @@
     },
     {
         "id": 57,
-        "name": "consultar",
-        "EN": "to consult",
+        "in_spanish": "consultar",
+        "in_english": "to consult",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5511,8 +5511,8 @@
     },
     {
         "id": 58,
-        "name": "contar",
-        "EN": "to count",
+        "in_spanish": "contar",
+        "in_english": "to count",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -5606,8 +5606,8 @@
     },
     {
         "id": 59,
-        "name": "contestar",
-        "EN": "to answer",
+        "in_spanish": "contestar",
+        "in_english": "to answer",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5701,8 +5701,8 @@
     },
     {
         "id": 60,
-        "name": "controlar",
-        "EN": "to control",
+        "in_spanish": "controlar",
+        "in_english": "to control",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5796,8 +5796,8 @@
     },
     {
         "id": 61,
-        "name": "convertir",
-        "EN": "to convert",
+        "in_spanish": "convertir",
+        "in_english": "to convert",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5891,8 +5891,8 @@
     },
     {
         "id": 62,
-        "name": "correr",
-        "EN": "to run",
+        "in_spanish": "correr",
+        "in_english": "to run",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -5986,8 +5986,8 @@
     },
     {
         "id": 63,
-        "name": "cortar",
-        "EN": "to cut",
+        "in_spanish": "cortar",
+        "in_english": "to cut",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -6081,8 +6081,8 @@
     },
     {
         "id": 64,
-        "name": "crear",
-        "EN": "to create",
+        "in_spanish": "crear",
+        "in_english": "to create",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -6176,8 +6176,8 @@
     },
     {
         "id": 65,
-        "name": "crecer",
-        "EN": "to grow",
+        "in_spanish": "crecer",
+        "in_english": "to grow",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -6271,8 +6271,8 @@
     },
     {
         "id": 66,
-        "name": "creer",
-        "EN": "to believe",
+        "in_spanish": "creer",
+        "in_english": "to believe",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -6366,8 +6366,8 @@
     },
     {
         "id": 67,
-        "name": "cumplir",
-        "EN": "to fulfill",
+        "in_spanish": "cumplir",
+        "in_english": "to fulfill",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -6461,8 +6461,8 @@
     },
     {
         "id": 68,
-        "name": "curar",
-        "EN": "to cure",
+        "in_spanish": "curar",
+        "in_english": "to cure",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -6556,8 +6556,8 @@
     },
     {
         "id": 69,
-        "name": "dar",
-        "EN": "to give",
+        "in_spanish": "dar",
+        "in_english": "to give",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -6651,8 +6651,8 @@
     },
     {
         "id": 70,
-        "name": "deber",
-        "EN": "to must / to owe",
+        "in_spanish": "deber",
+        "in_english": "to must / to owe",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -6746,8 +6746,8 @@
     },
     {
         "id": 71,
-        "name": "decidir",
-        "EN": "to decide",
+        "in_spanish": "decidir",
+        "in_english": "to decide",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -6841,8 +6841,8 @@
     },
     {
         "id": 72,
-        "name": "decir",
-        "EN": "to say",
+        "in_spanish": "decir",
+        "in_english": "to say",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -6936,8 +6936,8 @@
     },
     {
         "id": 73,
-        "name": "defender",
-        "EN": "to defend",
+        "in_spanish": "defender",
+        "in_english": "to defend",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -7031,8 +7031,8 @@
     },
     {
         "id": 74,
-        "name": "dejar",
-        "EN": "to leave",
+        "in_spanish": "dejar",
+        "in_english": "to leave",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7126,8 +7126,8 @@
     },
     {
         "id": 75,
-        "name": "demostrar",
-        "EN": "to demonstrate",
+        "in_spanish": "demostrar",
+        "in_english": "to demonstrate",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -7221,8 +7221,8 @@
     },
     {
         "id": 76,
-        "name": "desayunar",
-        "EN": "to have breakfast",
+        "in_spanish": "desayunar",
+        "in_english": "to have breakfast",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7316,8 +7316,8 @@
     },
     {
         "id": 77,
-        "name": "descansar",
-        "EN": "to rest",
+        "in_spanish": "descansar",
+        "in_english": "to rest",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7411,8 +7411,8 @@
     },
     {
         "id": 78,
-        "name": "descubrir",
-        "EN": "to discover",
+        "in_spanish": "descubrir",
+        "in_english": "to discover",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7506,8 +7506,8 @@
     },
     {
         "id": 79,
-        "name": "desear",
-        "EN": "to wish",
+        "in_spanish": "desear",
+        "in_english": "to wish",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7601,8 +7601,8 @@
     },
     {
         "id": 80,
-        "name": "despertarse",
-        "EN": "to wake up",
+        "in_spanish": "despertarse",
+        "in_english": "to wake up",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -7696,8 +7696,8 @@
     },
     {
         "id": 81,
-        "name": "dibujar",
-        "EN": "to draw",
+        "in_spanish": "dibujar",
+        "in_english": "to draw",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7791,8 +7791,8 @@
     },
     {
         "id": 82,
-        "name": "dirigir",
-        "EN": "to direct",
+        "in_spanish": "dirigir",
+        "in_english": "to direct",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7886,8 +7886,8 @@
     },
     {
         "id": 83,
-        "name": "discutir",
-        "EN": "to discuss",
+        "in_spanish": "discutir",
+        "in_english": "to discuss",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -7981,8 +7981,8 @@
     },
     {
         "id": 84,
-        "name": "diseñar",
-        "EN": "to design",
+        "in_spanish": "diseñar",
+        "in_english": "to design",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -8076,8 +8076,8 @@
     },
     {
         "id": 85,
-        "name": "disfrutar",
-        "EN": "to enjoy",
+        "in_spanish": "disfrutar",
+        "in_english": "to enjoy",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -8171,8 +8171,8 @@
     },
     {
         "id": 86,
-        "name": "dormir",
-        "EN": "to sleep",
+        "in_spanish": "dormir",
+        "in_english": "to sleep",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -8266,8 +8266,8 @@
     },
     {
         "id": 87,
-        "name": "ducharse",
-        "EN": "to shower",
+        "in_spanish": "ducharse",
+        "in_english": "to shower",
         "is_regular": true,
         "is_reflexive": true,
         "conjugation": {
@@ -8361,8 +8361,8 @@
     },
     {
         "id": 88,
-        "name": "echar",
-        "EN": "to throw",
+        "in_spanish": "echar",
+        "in_english": "to throw",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -8456,8 +8456,8 @@
     },
     {
         "id": 89,
-        "name": "elegir",
-        "EN": "to choose",
+        "in_spanish": "elegir",
+        "in_english": "to choose",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -8551,8 +8551,8 @@
     },
     {
         "id": 90,
-        "name": "empezar",
-        "EN": "to start",
+        "in_spanish": "empezar",
+        "in_english": "to start",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -8646,8 +8646,8 @@
     },
     {
         "id": 91,
-        "name": "empujar",
-        "EN": "to push",
+        "in_spanish": "empujar",
+        "in_english": "to push",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -8741,8 +8741,8 @@
     },
     {
         "id": 92,
-        "name": "encontrar",
-        "EN": "to find",
+        "in_spanish": "encontrar",
+        "in_english": "to find",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -8836,8 +8836,8 @@
     },
     {
         "id": 93,
-        "name": "enseñar",
-        "EN": "to teach",
+        "in_spanish": "enseñar",
+        "in_english": "to teach",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -8931,8 +8931,8 @@
     },
     {
         "id": 94,
-        "name": "entender",
-        "EN": "to understand",
+        "in_spanish": "entender",
+        "in_english": "to understand",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -9026,8 +9026,8 @@
     },
     {
         "id": 95,
-        "name": "entrar",
-        "EN": "to enter",
+        "in_spanish": "entrar",
+        "in_english": "to enter",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -9121,8 +9121,8 @@
     },
     {
         "id": 96,
-        "name": "enviar",
-        "EN": "to send",
+        "in_spanish": "enviar",
+        "in_english": "to send",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -9216,8 +9216,8 @@
     },
     {
         "id": 97,
-        "name": "escapar",
-        "EN": "to escape",
+        "in_spanish": "escapar",
+        "in_english": "to escape",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -9311,8 +9311,8 @@
     },
     {
         "id": 98,
-        "name": "escribir",
-        "EN": "to write",
+        "in_spanish": "escribir",
+        "in_english": "to write",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -9406,8 +9406,8 @@
     },
     {
         "id": 99,
-        "name": "escuchar",
-        "EN": "to listen",
+        "in_spanish": "escuchar",
+        "in_english": "to listen",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -9501,8 +9501,8 @@
     },
     {
         "id": 100,
-        "name": "esperar",
-        "EN": "to wait",
+        "in_spanish": "esperar",
+        "in_english": "to wait",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -9596,8 +9596,8 @@
     },
     {
         "id": 101,
-        "name": "establecer",
-        "EN": "to establish",
+        "in_spanish": "establecer",
+        "in_english": "to establish",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -9691,8 +9691,8 @@
     },
     {
         "id": 102,
-        "name": "estar",
-        "EN": "to be",
+        "in_spanish": "estar",
+        "in_english": "to be",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -9786,8 +9786,8 @@
     },
     {
         "id": 103,
-        "name": "estudiar",
-        "EN": "to study",
+        "in_spanish": "estudiar",
+        "in_english": "to study",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -9881,8 +9881,8 @@
     },
     {
         "id": 104,
-        "name": "existir",
-        "EN": "to exist",
+        "in_spanish": "existir",
+        "in_english": "to exist",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -9976,8 +9976,8 @@
     },
     {
         "id": 105,
-        "name": "explicar",
-        "EN": "to explain",
+        "in_spanish": "explicar",
+        "in_english": "to explain",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10071,8 +10071,8 @@
     },
     {
         "id": 106,
-        "name": "expresar",
-        "EN": "to express",
+        "in_spanish": "expresar",
+        "in_english": "to express",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10166,8 +10166,8 @@
     },
     {
         "id": 107,
-        "name": "extrañar",
-        "EN": "to miss",
+        "in_spanish": "extrañar",
+        "in_english": "to miss",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10261,8 +10261,8 @@
     },
     {
         "id": 108,
-        "name": "finalizar",
-        "EN": "to finish",
+        "in_spanish": "finalizar",
+        "in_english": "to finish",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10356,8 +10356,8 @@
     },
     {
         "id": 109,
-        "name": "formar",
-        "EN": "to form",
+        "in_spanish": "formar",
+        "in_english": "to form",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10451,8 +10451,8 @@
     },
     {
         "id": 110,
-        "name": "funcionar",
-        "EN": "to function",
+        "in_spanish": "funcionar",
+        "in_english": "to function",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10546,8 +10546,8 @@
     },
     {
         "id": 111,
-        "name": "ganar",
-        "EN": "to win",
+        "in_spanish": "ganar",
+        "in_english": "to win",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10641,8 +10641,8 @@
     },
     {
         "id": 112,
-        "name": "gastar",
-        "EN": "to spend",
+        "in_spanish": "gastar",
+        "in_english": "to spend",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10736,8 +10736,8 @@
     },
     {
         "id": 113,
-        "name": "guardar",
-        "EN": "to guard",
+        "in_spanish": "guardar",
+        "in_english": "to guard",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10831,8 +10831,8 @@
     },
     {
         "id": 114,
-        "name": "gustar",
-        "EN": "to like",
+        "in_spanish": "gustar",
+        "in_english": "to like",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -10888,8 +10888,8 @@
     },
     {
         "id": 115,
-        "name": "hablar",
-        "EN": "to speak",
+        "in_spanish": "hablar",
+        "in_english": "to speak",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -10983,8 +10983,8 @@
     },
     {
         "id": 116,
-        "name": "hacer",
-        "EN": "to do / to make",
+        "in_spanish": "hacer",
+        "in_english": "to do / to make",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -11078,8 +11078,8 @@
     },
     {
         "id": 117,
-        "name": "importar",
-        "EN": "to matter/to import",
+        "in_spanish": "importar",
+        "in_english": "to matter/to import",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -11173,8 +11173,8 @@
     },
     {
         "id": 118,
-        "name": "incluir",
-        "EN": "to include",
+        "in_spanish": "incluir",
+        "in_english": "to include",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -11268,8 +11268,8 @@
     },
     {
         "id": 119,
-        "name": "insistir",
-        "EN": "to insist",
+        "in_spanish": "insistir",
+        "in_english": "to insist",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -11363,8 +11363,8 @@
     },
     {
         "id": 120,
-        "name": "intentar",
-        "EN": "to try",
+        "in_spanish": "intentar",
+        "in_english": "to try",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -11458,8 +11458,8 @@
     },
     {
         "id": 121,
-        "name": "interesar",
-        "EN": "to interest",
+        "in_spanish": "interesar",
+        "in_english": "to interest",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -11553,8 +11553,8 @@
     },
     {
         "id": 122,
-        "name": "investigar",
-        "EN": "to investigate",
+        "in_spanish": "investigar",
+        "in_english": "to investigate",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -11648,8 +11648,8 @@
     },
     {
         "id": 123,
-        "name": "ir",
-        "EN": "to go",
+        "in_spanish": "ir",
+        "in_english": "to go",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -11743,8 +11743,8 @@
     },
     {
         "id": 124,
-        "name": "jugar",
-        "EN": "to play",
+        "in_spanish": "jugar",
+        "in_english": "to play",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -11838,8 +11838,8 @@
     },
     {
         "id": 125,
-        "name": "lanzar",
-        "EN": "to throw",
+        "in_spanish": "lanzar",
+        "in_english": "to throw",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -11933,8 +11933,8 @@
     },
     {
         "id": 126,
-        "name": "lavar",
-        "EN": "to wash",
+        "in_spanish": "lavar",
+        "in_english": "to wash",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12028,8 +12028,8 @@
     },
     {
         "id": 127,
-        "name": "leer",
-        "EN": "to read",
+        "in_spanish": "leer",
+        "in_english": "to read",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12123,8 +12123,8 @@
     },
     {
         "id": 128,
-        "name": "levantar",
-        "EN": "to lift",
+        "in_spanish": "levantar",
+        "in_english": "to lift",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12218,8 +12218,8 @@
     },
     {
         "id": 129,
-        "name": "levantarse",
-        "EN": "to get up",
+        "in_spanish": "levantarse",
+        "in_english": "to get up",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -12313,8 +12313,8 @@
     },
     {
         "id": 130,
-        "name": "limpiar",
-        "EN": "to clean",
+        "in_spanish": "limpiar",
+        "in_english": "to clean",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12408,8 +12408,8 @@
     },
     {
         "id": 131,
-        "name": "llamar",
-        "EN": "to call",
+        "in_spanish": "llamar",
+        "in_english": "to call",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12503,8 +12503,8 @@
     },
     {
         "id": 132,
-        "name": "llamarse",
-        "EN": "to call oneself",
+        "in_spanish": "llamarse",
+        "in_english": "to call oneself",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -12598,8 +12598,8 @@
     },
     {
         "id": 133,
-        "name": "llegar",
-        "EN": "to arrive",
+        "in_spanish": "llegar",
+        "in_english": "to arrive",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12693,8 +12693,8 @@
     },
     {
         "id": 134,
-        "name": "llevar",
-        "EN": "to carry",
+        "in_spanish": "llevar",
+        "in_english": "to carry",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12788,8 +12788,8 @@
     },
     {
         "id": 135,
-        "name": "lograr",
-        "EN": "to achieve",
+        "in_spanish": "lograr",
+        "in_english": "to achieve",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -12883,8 +12883,8 @@
     },
     {
         "id": 136,
-        "name": "manifestar",
-        "EN": "to manifest",
+        "in_spanish": "manifestar",
+        "in_english": "to manifest",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -12978,8 +12978,8 @@
     },
     {
         "id": 137,
-        "name": "mantener",
-        "EN": "to maintain",
+        "in_spanish": "mantener",
+        "in_english": "to maintain",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -13073,8 +13073,8 @@
     },
     {
         "id": 138,
-        "name": "maquillarse",
-        "EN": "to put on makeup (reflexive)",
+        "in_spanish": "maquillarse",
+        "in_english": "to put on makeup (reflexive)",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -13168,8 +13168,8 @@
     },
     {
         "id": 139,
-        "name": "matar",
-        "EN": "to kill",
+        "in_spanish": "matar",
+        "in_english": "to kill",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -13263,8 +13263,8 @@
     },
     {
         "id": 140,
-        "name": "medir",
-        "EN": "to measure",
+        "in_spanish": "medir",
+        "in_english": "to measure",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -13358,8 +13358,8 @@
     },
     {
         "id": 141,
-        "name": "mejorar",
-        "EN": "to improve",
+        "in_spanish": "mejorar",
+        "in_english": "to improve",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -13453,8 +13453,8 @@
     },
     {
         "id": 142,
-        "name": "mirar",
-        "EN": "to look",
+        "in_spanish": "mirar",
+        "in_english": "to look",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -13548,8 +13548,8 @@
     },
     {
         "id": 143,
-        "name": "montar",
-        "EN": "to mount",
+        "in_spanish": "montar",
+        "in_english": "to mount",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -13643,8 +13643,8 @@
     },
     {
         "id": 144,
-        "name": "morir",
-        "EN": "to die",
+        "in_spanish": "morir",
+        "in_english": "to die",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -13738,8 +13738,8 @@
     },
     {
         "id": 145,
-        "name": "mover",
-        "EN": "to move",
+        "in_spanish": "mover",
+        "in_english": "to move",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -13833,8 +13833,8 @@
     },
     {
         "id": 146,
-        "name": "moverse",
-        "EN": "to move (reflexive)",
+        "in_spanish": "moverse",
+        "in_english": "to move (reflexive)",
         "is_regular": true,
         "is_reflexive": true,
         "conjugation": {
@@ -13928,8 +13928,8 @@
     },
     {
         "id": 147,
-        "name": "nacer",
-        "EN": "to be born",
+        "in_spanish": "nacer",
+        "in_english": "to be born",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -14023,8 +14023,8 @@
     },
     {
         "id": 148,
-        "name": "nadar",
-        "EN": "to swim",
+        "in_spanish": "nadar",
+        "in_english": "to swim",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14118,8 +14118,8 @@
     },
     {
         "id": 149,
-        "name": "necesitar",
-        "EN": "to need",
+        "in_spanish": "necesitar",
+        "in_english": "to need",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14213,8 +14213,8 @@
     },
     {
         "id": 150,
-        "name": "notar",
-        "EN": "to notice",
+        "in_spanish": "notar",
+        "in_english": "to notice",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14308,8 +14308,8 @@
     },
     {
         "id": 151,
-        "name": "observar",
-        "EN": "to observe",
+        "in_spanish": "observar",
+        "in_english": "to observe",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14403,8 +14403,8 @@
     },
     {
         "id": 152,
-        "name": "obtener",
-        "EN": "to obtain",
+        "in_spanish": "obtener",
+        "in_english": "to obtain",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -14498,8 +14498,8 @@
     },
     {
         "id": 153,
-        "name": "ocurrir",
-        "EN": "to occur",
+        "in_spanish": "ocurrir",
+        "in_english": "to occur",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14593,8 +14593,8 @@
     },
     {
         "id": 154,
-        "name": "ofrecer",
-        "EN": "to offer",
+        "in_spanish": "ofrecer",
+        "in_english": "to offer",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -14688,8 +14688,8 @@
     },
     {
         "id": 155,
-        "name": "olvidar",
-        "EN": "to forget",
+        "in_spanish": "olvidar",
+        "in_english": "to forget",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14783,8 +14783,8 @@
     },
     {
         "id": 156,
-        "name": "ordenar",
-        "EN": "to order",
+        "in_spanish": "ordenar",
+        "in_english": "to order",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14878,8 +14878,8 @@
     },
     {
         "id": 157,
-        "name": "organizar",
-        "EN": "to organize",
+        "in_spanish": "organizar",
+        "in_english": "to organize",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -14973,8 +14973,8 @@
     },
     {
         "id": 158,
-        "name": "oír",
-        "EN": "to hear",
+        "in_spanish": "oír",
+        "in_english": "to hear",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -15068,8 +15068,8 @@
     },
     {
         "id": 159,
-        "name": "pagar",
-        "EN": "to pay",
+        "in_spanish": "pagar",
+        "in_english": "to pay",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -15163,8 +15163,8 @@
     },
     {
         "id": 160,
-        "name": "parar",
-        "EN": "to stop",
+        "in_spanish": "parar",
+        "in_english": "to stop",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -15258,8 +15258,8 @@
     },
     {
         "id": 161,
-        "name": "parecer",
-        "EN": "to seem",
+        "in_spanish": "parecer",
+        "in_english": "to seem",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -15353,8 +15353,8 @@
     },
     {
         "id": 162,
-        "name": "participar",
-        "EN": "to participate",
+        "in_spanish": "participar",
+        "in_english": "to participate",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -15448,8 +15448,8 @@
     },
     {
         "id": 163,
-        "name": "partir",
-        "EN": "to leave/depart",
+        "in_spanish": "partir",
+        "in_english": "to leave/depart",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -15543,8 +15543,8 @@
     },
     {
         "id": 164,
-        "name": "pasar",
-        "EN": "to pass",
+        "in_spanish": "pasar",
+        "in_english": "to pass",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -15638,8 +15638,8 @@
     },
     {
         "id": 165,
-        "name": "pedir",
-        "EN": "to ask for",
+        "in_spanish": "pedir",
+        "in_english": "to ask for",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -15733,8 +15733,8 @@
     },
     {
         "id": 166,
-        "name": "pensar",
-        "EN": "to think",
+        "in_spanish": "pensar",
+        "in_english": "to think",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -15828,8 +15828,8 @@
     },
     {
         "id": 167,
-        "name": "perder",
-        "EN": "to lose",
+        "in_spanish": "perder",
+        "in_english": "to lose",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -15923,8 +15923,8 @@
     },
     {
         "id": 168,
-        "name": "permitir",
-        "EN": "to permit",
+        "in_spanish": "permitir",
+        "in_english": "to permit",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16018,8 +16018,8 @@
     },
     {
         "id": 169,
-        "name": "pintar",
-        "EN": "to paint",
+        "in_spanish": "pintar",
+        "in_english": "to paint",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16113,8 +16113,8 @@
     },
     {
         "id": 170,
-        "name": "poder",
-        "EN": "to be able, can",
+        "in_spanish": "poder",
+        "in_english": "to be able, can",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -16208,8 +16208,8 @@
     },
     {
         "id": 171,
-        "name": "poner",
-        "EN": "to put",
+        "in_spanish": "poner",
+        "in_english": "to put",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -16303,8 +16303,8 @@
     },
     {
         "id": 172,
-        "name": "ponerse",
-        "EN": "to put on (clothes), to become",
+        "in_spanish": "ponerse",
+        "in_english": "to put on (clothes), to become",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -16398,8 +16398,8 @@
     },
     {
         "id": 173,
-        "name": "practicar",
-        "EN": "to practice",
+        "in_spanish": "practicar",
+        "in_english": "to practice",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16493,8 +16493,8 @@
     },
     {
         "id": 174,
-        "name": "preguntar",
-        "EN": "to ask",
+        "in_spanish": "preguntar",
+        "in_english": "to ask",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16588,8 +16588,8 @@
     },
     {
         "id": 175,
-        "name": "preocupar",
-        "EN": "to worry",
+        "in_spanish": "preocupar",
+        "in_english": "to worry",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16683,8 +16683,8 @@
     },
     {
         "id": 176,
-        "name": "preparar",
-        "EN": "to prepare",
+        "in_spanish": "preparar",
+        "in_english": "to prepare",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16778,8 +16778,8 @@
     },
     {
         "id": 177,
-        "name": "presentar",
-        "EN": "to present",
+        "in_spanish": "presentar",
+        "in_english": "to present",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16873,8 +16873,8 @@
     },
     {
         "id": 178,
-        "name": "prever",
-        "EN": "to foresee",
+        "in_spanish": "prever",
+        "in_english": "to foresee",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -16968,8 +16968,8 @@
     },
     {
         "id": 179,
-        "name": "producir",
-        "EN": "to produce",
+        "in_spanish": "producir",
+        "in_english": "to produce",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -17063,8 +17063,8 @@
     },
     {
         "id": 180,
-        "name": "proponer",
-        "EN": "to propose",
+        "in_spanish": "proponer",
+        "in_english": "to propose",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -17158,8 +17158,8 @@
     },
     {
         "id": 181,
-        "name": "quedar",
-        "EN": "to stay/to remain",
+        "in_spanish": "quedar",
+        "in_english": "to stay/to remain",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -17253,8 +17253,8 @@
     },
     {
         "id": 182,
-        "name": "quedarse",
-        "EN": "to stay",
+        "in_spanish": "quedarse",
+        "in_english": "to stay",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -17348,8 +17348,8 @@
     },
     {
         "id": 183,
-        "name": "querer",
-        "EN": "to want",
+        "in_spanish": "querer",
+        "in_english": "to want",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -17443,8 +17443,8 @@
     },
     {
         "id": 184,
-        "name": "realizar",
-        "EN": "to carry out",
+        "in_spanish": "realizar",
+        "in_english": "to carry out",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -17538,8 +17538,8 @@
     },
     {
         "id": 185,
-        "name": "rechazar",
-        "EN": "to reject",
+        "in_spanish": "rechazar",
+        "in_english": "to reject",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -17633,8 +17633,8 @@
     },
     {
         "id": 186,
-        "name": "recibir",
-        "EN": "to receive",
+        "in_spanish": "recibir",
+        "in_english": "to receive",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -17728,8 +17728,8 @@
     },
     {
         "id": 187,
-        "name": "recoger",
-        "EN": "to pick up",
+        "in_spanish": "recoger",
+        "in_english": "to pick up",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -17823,8 +17823,8 @@
     },
     {
         "id": 188,
-        "name": "reconocer",
-        "EN": "to recognize",
+        "in_spanish": "reconocer",
+        "in_english": "to recognize",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -17918,8 +17918,8 @@
     },
     {
         "id": 189,
-        "name": "recordar",
-        "EN": "to remember",
+        "in_spanish": "recordar",
+        "in_english": "to remember",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -18013,8 +18013,8 @@
     },
     {
         "id": 190,
-        "name": "reducir",
-        "EN": "to reduce",
+        "in_spanish": "reducir",
+        "in_english": "to reduce",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -18108,8 +18108,8 @@
     },
     {
         "id": 191,
-        "name": "regalar",
-        "EN": "to give as a gift",
+        "in_spanish": "regalar",
+        "in_english": "to give as a gift",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -18203,8 +18203,8 @@
     },
     {
         "id": 192,
-        "name": "remar",
-        "EN": "to row",
+        "in_spanish": "remar",
+        "in_english": "to row",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -18298,8 +18298,8 @@
     },
     {
         "id": 193,
-        "name": "reparar",
-        "EN": "to repair",
+        "in_spanish": "reparar",
+        "in_english": "to repair",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -18393,8 +18393,8 @@
     },
     {
         "id": 194,
-        "name": "repetir",
-        "EN": "to repeat",
+        "in_spanish": "repetir",
+        "in_english": "to repeat",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -18488,8 +18488,8 @@
     },
     {
         "id": 195,
-        "name": "representar",
-        "EN": "to represent",
+        "in_spanish": "representar",
+        "in_english": "to represent",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -18583,8 +18583,8 @@
     },
     {
         "id": 196,
-        "name": "resolver",
-        "EN": "to resolve",
+        "in_spanish": "resolver",
+        "in_english": "to resolve",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -18678,8 +18678,8 @@
     },
     {
         "id": 197,
-        "name": "responder",
-        "EN": "to respond",
+        "in_spanish": "responder",
+        "in_english": "to respond",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -18773,8 +18773,8 @@
     },
     {
         "id": 198,
-        "name": "resultar",
-        "EN": "to result",
+        "in_spanish": "resultar",
+        "in_english": "to result",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -18868,8 +18868,8 @@
     },
     {
         "id": 199,
-        "name": "retirar",
-        "EN": "to withdraw",
+        "in_spanish": "retirar",
+        "in_english": "to withdraw",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -18963,8 +18963,8 @@
     },
     {
         "id": 200,
-        "name": "robar",
-        "EN": "to steal",
+        "in_spanish": "robar",
+        "in_english": "to steal",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -19058,8 +19058,8 @@
     },
     {
         "id": 201,
-        "name": "romper",
-        "EN": "to break",
+        "in_spanish": "romper",
+        "in_english": "to break",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -19153,8 +19153,8 @@
     },
     {
         "id": 202,
-        "name": "saber",
-        "EN": "to know",
+        "in_spanish": "saber",
+        "in_english": "to know",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -19248,8 +19248,8 @@
     },
     {
         "id": 203,
-        "name": "sacar",
-        "EN": "to take out",
+        "in_spanish": "sacar",
+        "in_english": "to take out",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -19343,8 +19343,8 @@
     },
     {
         "id": 204,
-        "name": "salir",
-        "EN": "to go out",
+        "in_spanish": "salir",
+        "in_english": "to go out",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -19438,8 +19438,8 @@
     },
     {
         "id": 205,
-        "name": "saltar",
-        "EN": "to jump",
+        "in_spanish": "saltar",
+        "in_english": "to jump",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -19533,8 +19533,8 @@
     },
     {
         "id": 206,
-        "name": "seguir",
-        "EN": "to follow",
+        "in_spanish": "seguir",
+        "in_english": "to follow",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -19628,8 +19628,8 @@
     },
     {
         "id": 207,
-        "name": "sentar",
-        "EN": "to sit",
+        "in_spanish": "sentar",
+        "in_english": "to sit",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -19723,8 +19723,8 @@
     },
     {
         "id": 208,
-        "name": "sentarse",
-        "EN": "to sit down",
+        "in_spanish": "sentarse",
+        "in_english": "to sit down",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -19818,8 +19818,8 @@
     },
     {
         "id": 209,
-        "name": "sentir",
-        "EN": "to feel",
+        "in_spanish": "sentir",
+        "in_english": "to feel",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -19913,8 +19913,8 @@
     },
     {
         "id": 210,
-        "name": "sentirse",
-        "EN": "to feel",
+        "in_spanish": "sentirse",
+        "in_english": "to feel",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -20008,8 +20008,8 @@
     },
     {
         "id": 211,
-        "name": "ser",
-        "EN": "to be",
+        "in_spanish": "ser",
+        "in_english": "to be",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -20103,8 +20103,8 @@
     },
     {
         "id": 212,
-        "name": "servir",
-        "EN": "to serve",
+        "in_spanish": "servir",
+        "in_english": "to serve",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -20198,8 +20198,8 @@
     },
     {
         "id": 213,
-        "name": "señalar",
-        "EN": "to point out",
+        "in_spanish": "señalar",
+        "in_english": "to point out",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -20293,8 +20293,8 @@
     },
     {
         "id": 214,
-        "name": "sorprender",
-        "EN": "to surprise",
+        "in_spanish": "sorprender",
+        "in_english": "to surprise",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -20388,8 +20388,8 @@
     },
     {
         "id": 215,
-        "name": "subir",
-        "EN": "to go up",
+        "in_spanish": "subir",
+        "in_english": "to go up",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -20483,8 +20483,8 @@
     },
     {
         "id": 216,
-        "name": "sufrir",
-        "EN": "to suffer",
+        "in_spanish": "sufrir",
+        "in_english": "to suffer",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -20578,8 +20578,8 @@
     },
     {
         "id": 217,
-        "name": "sugerir",
-        "EN": "to suggest",
+        "in_spanish": "sugerir",
+        "in_english": "to suggest",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -20673,8 +20673,8 @@
     },
     {
         "id": 218,
-        "name": "suponer",
-        "EN": "to suppose",
+        "in_spanish": "suponer",
+        "in_english": "to suppose",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -20768,8 +20768,8 @@
     },
     {
         "id": 219,
-        "name": "tener",
-        "EN": "to have",
+        "in_spanish": "tener",
+        "in_english": "to have",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -20858,8 +20858,8 @@
     },
     {
         "id": 220,
-        "name": "terminar",
-        "EN": "to finish",
+        "in_spanish": "terminar",
+        "in_english": "to finish",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -20953,8 +20953,8 @@
     },
     {
         "id": 221,
-        "name": "tirar",
-        "EN": "to throw",
+        "in_spanish": "tirar",
+        "in_english": "to throw",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21048,8 +21048,8 @@
     },
     {
         "id": 222,
-        "name": "tocar",
-        "EN": "to touch",
+        "in_spanish": "tocar",
+        "in_english": "to touch",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21143,8 +21143,8 @@
     },
     {
         "id": 223,
-        "name": "tomar",
-        "EN": "to take",
+        "in_spanish": "tomar",
+        "in_english": "to take",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21238,8 +21238,8 @@
     },
     {
         "id": 224,
-        "name": "trabajar",
-        "EN": "to work",
+        "in_spanish": "trabajar",
+        "in_english": "to work",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21333,8 +21333,8 @@
     },
     {
         "id": 225,
-        "name": "traer",
-        "EN": "to bring",
+        "in_spanish": "traer",
+        "in_english": "to bring",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -21428,8 +21428,8 @@
     },
     {
         "id": 226,
-        "name": "tratar",
-        "EN": "to treat",
+        "in_spanish": "tratar",
+        "in_english": "to treat",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21523,8 +21523,8 @@
     },
     {
         "id": 227,
-        "name": "usar",
-        "EN": "to use",
+        "in_spanish": "usar",
+        "in_english": "to use",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21618,8 +21618,8 @@
     },
     {
         "id": 228,
-        "name": "utilizar",
-        "EN": "to use",
+        "in_spanish": "utilizar",
+        "in_english": "to use",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21713,8 +21713,8 @@
     },
     {
         "id": 229,
-        "name": "vender",
-        "EN": "to sell",
+        "in_spanish": "vender",
+        "in_english": "to sell",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21808,8 +21808,8 @@
     },
     {
         "id": 230,
-        "name": "venir",
-        "EN": "to come",
+        "in_spanish": "venir",
+        "in_english": "to come",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -21903,8 +21903,8 @@
     },
     {
         "id": 231,
-        "name": "ver",
-        "EN": "to see",
+        "in_spanish": "ver",
+        "in_english": "to see",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -21998,8 +21998,8 @@
     },
     {
         "id": 232,
-        "name": "vestirse",
-        "EN": "to dress oneself",
+        "in_spanish": "vestirse",
+        "in_english": "to dress oneself",
         "is_regular": false,
         "is_reflexive": true,
         "conjugation": {
@@ -22093,8 +22093,8 @@
     },
     {
         "id": 233,
-        "name": "viajar",
-        "EN": "to travel",
+        "in_spanish": "viajar",
+        "in_english": "to travel",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -22188,8 +22188,8 @@
     },
     {
         "id": 234,
-        "name": "visitar",
-        "EN": "to visit",
+        "in_spanish": "visitar",
+        "in_english": "to visit",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -22283,8 +22283,8 @@
     },
     {
         "id": 235,
-        "name": "vivir",
-        "EN": "to live",
+        "in_spanish": "vivir",
+        "in_english": "to live",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
@@ -22378,8 +22378,8 @@
     },
     {
         "id": 236,
-        "name": "volar",
-        "EN": "to fly",
+        "in_spanish": "volar",
+        "in_english": "to fly",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -22473,8 +22473,8 @@
     },
     {
         "id": 237,
-        "name": "volver",
-        "EN": "to return/to go back",
+        "in_spanish": "volver",
+        "in_english": "to return/to go back",
         "is_regular": false,
         "is_reflexive": false,
         "conjugation": {
@@ -22568,8 +22568,8 @@
     },
     {
         "id": 238,
-        "name": "votar",
-        "EN": "to vote",
+        "in_spanish": "votar",
+        "in_english": "to vote",
         "is_regular": true,
         "is_reflexive": false,
         "conjugation": {
