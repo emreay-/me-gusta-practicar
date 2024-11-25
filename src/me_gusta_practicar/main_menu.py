@@ -1,12 +1,14 @@
 import pygame
 
+from me_gusta_practicar.practices import get_practice_display_names
+
 class MainMenu:
     def __init__(self, screen):
         self.screen = screen
         self.font = pygame.font.Font(None, 74)
         self.medium_font = pygame.font.Font(None, 50)
         self.small_font = pygame.font.Font(None, 25)
-        self.menu_options = ["Verb Practice", "Noun Practice", "Conjugation Practice"]
+        self.menu_options = get_practice_display_names()
         self.selected_option = 0
         self.instructions = [
             "Up/Down: Navigate",

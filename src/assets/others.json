@@ -1,0 +1,698 @@
+[
+    {
+        "id": 0,
+        "in_spanish": "abierta",
+        "in_english": "open",
+        "category": "adjective"
+    },
+    {
+        "id": 1,
+        "in_spanish": "abierto",
+        "in_english": "open",
+        "category": "adjective"
+    },
+    {
+        "id": 2,
+        "in_spanish": "aburrida",
+        "in_english": "boring",
+        "category": "adjective"
+    },
+    {
+        "id": 3,
+        "in_spanish": "aburrido",
+        "in_english": "boring",
+        "category": "adjective"
+    },
+    {
+        "id": 4,
+        "in_spanish": "acaso",
+        "in_english": "perhaps",
+        "category": "adverb"
+    },
+    {
+        "id": 5,
+        "in_spanish": "agradable",
+        "in_english": "pleasant",
+        "category": "adjective"
+    },
+    {
+        "id": 6,
+        "in_spanish": "alegre",
+        "in_english": "happy",
+        "category": "adjective"
+    },
+    {
+        "id": 7,
+        "in_spanish": "algo",
+        "in_english": "something",
+        "category": "pronoun"
+    },
+    {
+        "id": 8,
+        "in_spanish": "amable",
+        "in_english": "kind",
+        "category": "adjective"
+    },
+    {
+        "id": 9,
+        "in_spanish": "ambiciosa",
+        "in_english": "ambitious",
+        "category": "adjective"
+    },
+    {
+        "id": 10,
+        "in_spanish": "ambicioso",
+        "in_english": "ambitious",
+        "category": "adjective"
+    },
+    {
+        "id": 11,
+        "in_spanish": "antipática",
+        "in_english": "unpleasant",
+        "category": "adjective"
+    },
+    {
+        "id": 12,
+        "in_spanish": "antipático",
+        "in_english": "unfriendly",
+        "category": "adjective"
+    },
+    {
+        "id": 13,
+        "in_spanish": "aunque",
+        "in_english": "although",
+        "category": "conjunction"
+    },
+    {
+        "id": 14,
+        "in_spanish": "avísame",
+        "in_english": "let me know",
+        "category": "verb"
+    },
+    {
+        "id": 15,
+        "in_spanish": "ayer",
+        "in_english": "yesterday",
+        "category": "adverb"
+    },
+    {
+        "id": 16,
+        "in_spanish": "callada",
+        "in_english": "quiet",
+        "category": "adjective"
+    },
+    {
+        "id": 17,
+        "in_spanish": "callado",
+        "in_english": "quiet",
+        "category": "adjective"
+    },
+    {
+        "id": 18,
+        "in_spanish": "canción",
+        "in_english": "song",
+        "category": "noun"
+    },
+    {
+        "id": 19,
+        "in_spanish": "cerrada",
+        "in_english": "closed",
+        "category": "adjective"
+    },
+    {
+        "id": 20,
+        "in_spanish": "cerrado",
+        "in_english": "closed",
+        "category": "adjective"
+    },
+    {
+        "id": 21,
+        "in_spanish": "creativa",
+        "in_english": "creative",
+        "category": "adjective"
+    },
+    {
+        "id": 22,
+        "in_spanish": "creativo",
+        "in_english": "creative",
+        "category": "adjective"
+    },
+    {
+        "id": 23,
+        "in_spanish": "cual",
+        "in_english": "which/what",
+        "category": "interrogative pronoun"
+    },
+    {
+        "id": 24,
+        "in_spanish": "cuñada",
+        "in_english": "sister-in-law",
+        "category": "noun"
+    },
+    {
+        "id": 25,
+        "in_spanish": "cuñado",
+        "in_english": "brother-in-law",
+        "category": "noun"
+    },
+    {
+        "id": 26,
+        "in_spanish": "desagradable",
+        "in_english": "unpleasant",
+        "category": "adjective"
+    },
+    {
+        "id": 27,
+        "in_spanish": "despistada",
+        "in_english": "scatterbrained",
+        "category": "adjective"
+    },
+    {
+        "id": 28,
+        "in_spanish": "despistado",
+        "in_english": "scatterbrained",
+        "category": "adjective"
+    },
+    {
+        "id": 29,
+        "in_spanish": "divertida",
+        "in_english": "fun",
+        "category": "adjective"
+    },
+    {
+        "id": 30,
+        "in_spanish": "divertido",
+        "in_english": "fun",
+        "category": "adjective"
+    },
+    {
+        "id": 31,
+        "in_spanish": "educada",
+        "in_english": "educated",
+        "category": "adjective"
+    },
+    {
+        "id": 32,
+        "in_spanish": "educado",
+        "in_english": "educated",
+        "category": "adjective"
+    },
+    {
+        "id": 33,
+        "in_spanish": "egocéntrica",
+        "in_english": "egocentric",
+        "category": "adjective"
+    },
+    {
+        "id": 34,
+        "in_spanish": "egocéntrico",
+        "in_english": "egocentric",
+        "category": "adjective"
+    },
+    {
+        "id": 35,
+        "in_spanish": "egoísta",
+        "in_english": "selfish",
+        "category": "adjective"
+    },
+    {
+        "id": 36,
+        "in_spanish": "emprendedor",
+        "in_english": "entrepreneurial",
+        "category": "adjective"
+    },
+    {
+        "id": 37,
+        "in_spanish": "emprendedora",
+        "in_english": "entrepreneurial",
+        "category": "adjective"
+    },
+    {
+        "id": 38,
+        "in_spanish": "esposo",
+        "in_english": "husband",
+        "category": "noun"
+    },
+    {
+        "id": 39,
+        "in_spanish": "extrovertida",
+        "in_english": "outgoing",
+        "category": "adjective"
+    },
+    {
+        "id": 40,
+        "in_spanish": "extrovertido",
+        "in_english": "extroverted",
+        "category": "adjective"
+    },
+    {
+        "id": 41,
+        "in_spanish": "generosa",
+        "in_english": "generous",
+        "category": "adjective"
+    },
+    {
+        "id": 42,
+        "in_spanish": "generoso",
+        "in_english": "generous",
+        "category": "adjective"
+    },
+    {
+        "id": 43,
+        "in_spanish": "hablador",
+        "in_english": "talkative",
+        "category": "adjective"
+    },
+    {
+        "id": 44,
+        "in_spanish": "habladora",
+        "in_english": "talkative",
+        "category": "adjective"
+    },
+    {
+        "id": 45,
+        "in_spanish": "honesto",
+        "in_english": "hones",
+        "category": "adjective"
+    },
+    {
+        "id": 46,
+        "in_spanish": "honesta",
+        "in_english": "honest",
+        "category": "adjective"
+    },
+    {
+        "id": 47,
+        "in_spanish": "humilde",
+        "in_english": "humble",
+        "category": "adjective"
+    },
+    {
+        "id": 48,
+        "in_spanish": "impaciente",
+        "in_english": "impatient",
+        "category": "adjective"
+    },
+    {
+        "id": 49,
+        "in_spanish": "impuntual",
+        "in_english": "punctual",
+        "category": "adjective"
+    },
+    {
+        "id": 50,
+        "in_spanish": "inteligente",
+        "in_english": "intelligent",
+        "category": "adjective"
+    },
+    {
+        "id": 51,
+        "in_spanish": "interesante",
+        "in_english": "interesting",
+        "category": "adjective"
+    },
+    {
+        "id": 52,
+        "in_spanish": "introvertida",
+        "in_english": "introverted",
+        "category": "adjective"
+    },
+    {
+        "id": 53,
+        "in_spanish": "introvertido",
+        "in_english": "introverted",
+        "category": "adjective"
+    },
+    {
+        "id": 54,
+        "in_spanish": "irresponsable",
+        "in_english": "irresponsible",
+        "category": "adjective"
+    },
+    {
+        "id": 55,
+        "in_spanish": "lado",
+        "in_english": "side",
+        "category": "noun"
+    },
+    {
+        "id": 56,
+        "in_spanish": "llave",
+        "in_english": "key",
+        "category": "noun"
+    },
+    {
+        "id": 57,
+        "in_spanish": "maja",
+        "in_english": "cool",
+        "category": "adjective"
+    },
+    {
+        "id": 58,
+        "in_spanish": "majo",
+        "in_english": "friendly",
+        "category": "adjective"
+    },
+    {
+        "id": 59,
+        "in_spanish": "maleducada",
+        "in_english": "rude",
+        "category": "adjective"
+    },
+    {
+        "id": 60,
+        "in_spanish": "maleducado",
+        "in_english": "rude",
+        "category": "adjective"
+    },
+    {
+        "id": 61,
+        "in_spanish": "maleta",
+        "in_english": "suitcase",
+        "category": "noun"
+    },
+    {
+        "id": 62,
+        "in_spanish": "marido",
+        "in_english": "husband",
+        "category": "noun"
+    },
+    {
+        "id": 63,
+        "in_spanish": "mentirosa",
+        "in_english": "deceitful",
+        "category": "adjective"
+    },
+    {
+        "id": 64,
+        "in_spanish": "mentiroso",
+        "in_english": "liar",
+        "category": "adjective"
+    },
+    {
+        "id": 65,
+        "in_spanish": "modesta",
+        "in_english": "modest",
+        "category": "adjective"
+    },
+    {
+        "id": 66,
+        "in_spanish": "modesto",
+        "in_english": "modest",
+        "category": "adjective"
+    },
+    {
+        "id": 67,
+        "in_spanish": "nerviosa",
+        "in_english": "nervous",
+        "category": "adjective"
+    },
+    {
+        "id": 68,
+        "in_spanish": "nervioso",
+        "in_english": "nervous",
+        "category": "adjective"
+    },
+    {
+        "id": 69,
+        "in_spanish": "nieto",
+        "in_english": "grandson",
+        "category": "noun"
+    },
+    {
+        "id": 70,
+        "in_spanish": "nuera",
+        "in_english": "daughter-in-law",
+        "category": "noun"
+    },
+    {
+        "id": 71,
+        "in_spanish": "optimista",
+        "in_english": "optimistic",
+        "category": "adjective"
+    },
+    {
+        "id": 72,
+        "in_spanish": "organizada",
+        "in_english": "organized",
+        "category": "adjective"
+    },
+    {
+        "id": 73,
+        "in_spanish": "organizado",
+        "in_english": "organized",
+        "category": "adjective"
+    },
+    {
+        "id": 74,
+        "in_spanish": "paciente",
+        "in_english": "patient",
+        "category": "noun"
+    },
+    {
+        "id": 75,
+        "in_spanish": "paraguas",
+        "in_english": "umbrella",
+        "category": "noun"
+    },
+    {
+        "id": 76,
+        "in_spanish": "pasatiempo",
+        "in_english": "pastime",
+        "category": "noun"
+    },
+    {
+        "id": 77,
+        "in_spanish": "perezosa",
+        "in_english": "lazy",
+        "category": "adjective"
+    },
+    {
+        "id": 78,
+        "in_spanish": "perezoso",
+        "in_english": "lazy",
+        "category": "adjective"
+    },
+    {
+        "id": 79,
+        "in_spanish": "pesimista",
+        "in_english": "pessimistic",
+        "category": "adjective"
+    },
+    {
+        "id": 80,
+        "in_spanish": "prima",
+        "in_english": "cousin",
+        "category": "noun"
+    },
+    {
+        "id": 81,
+        "in_spanish": "puntual",
+        "in_english": "punctual",
+        "category": "adjective"
+    },
+    {
+        "id": 82,
+        "in_spanish": "quejarse",
+        "in_english": "to complain",
+        "category": "verb"
+    },
+    {
+        "id": 83,
+        "in_spanish": "rara",
+        "in_english": "rare",
+        "category": "adjective"
+    },
+    {
+        "id": 84,
+        "in_spanish": "raro",
+        "in_english": "rare",
+        "category": "adjective"
+    },
+    {
+        "id": 85,
+        "in_spanish": "responsable",
+        "in_english": "responsible",
+        "category": "adjective"
+    },
+    {
+        "id": 86,
+        "in_spanish": "el ruido",
+        "in_english": "noise",
+        "category": "noun"
+    },
+    {
+        "id": 87,
+        "in_spanish": "ser capaz",
+        "in_english": "to be capable",
+        "category": "verb"
+    },
+    {
+        "id": 88,
+        "in_spanish": "serio",
+        "in_english": "serious",
+        "category": "adjective"
+    },
+    {
+        "id": 89,
+        "in_spanish": "sería",
+        "in_english": "would be",
+        "category": "verb"
+    },
+    {
+        "id": 90,
+        "in_spanish": "simpática",
+        "in_english": "friendly",
+        "category": "adjective"
+    },
+    {
+        "id": 91,
+        "in_spanish": "simpático",
+        "in_english": "friendly",
+        "category": "adjective"
+    },
+    {
+        "id": 92,
+        "in_spanish": "sincera",
+        "in_english": "sincere",
+        "category": "adjective"
+    },
+    {
+        "id": 93,
+        "in_spanish": "sincero",
+        "in_english": "sincere",
+        "category": "adjective"
+    },
+    {
+        "id": 94,
+        "in_spanish": "sobrina",
+        "in_english": "niece",
+        "category": "noun"
+    },
+    {
+        "id": 95,
+        "in_spanish": "sobrino",
+        "in_english": "nephew",
+        "category": "noun"
+    },
+    {
+        "id": 96,
+        "in_spanish": "sociable",
+        "in_english": "sociable",
+        "category": "adjective"
+    },
+    {
+        "id": 97,
+        "in_spanish": "suegra",
+        "in_english": "mother-in-law",
+        "category": "noun"
+    },
+    {
+        "id": 98,
+        "in_spanish": "suegro",
+        "in_english": "father-in-law",
+        "category": "noun"
+    },
+    {
+        "id": 99,
+        "in_spanish": "temprano",
+        "in_english": "early",
+        "category": "adverb"
+    },
+    {
+        "id": 100,
+        "in_spanish": "tonta",
+        "in_english": "silly",
+        "category": "adjective"
+    },
+    {
+        "id": 101,
+        "in_spanish": "tonto",
+        "in_english": "silly",
+        "category": "adjective"
+    },
+    {
+        "id": 102,
+        "in_spanish": "trabajador",
+        "in_english": "hardworking",
+        "category": "adjective"
+    },
+    {
+        "id": 103,
+        "in_spanish": "trabajadora",
+        "in_english": "hardworking",
+        "category": "adjective"
+    },
+    {
+        "id": 104,
+        "in_spanish": "tranquila",
+        "in_english": "calm",
+        "category": "adjective"
+    },
+    {
+        "id": 105,
+        "in_spanish": "tranquilo",
+        "in_english": "calm",
+        "category": "adjective"
+    },
+    {
+        "id": 106,
+        "in_spanish": "travieso",
+        "in_english": "mischievous",
+        "category": "adjective"
+    },
+    {
+        "id": 107,
+        "in_spanish": "triste",
+        "in_english": "sad",
+        "category": "adjective"
+    },
+    {
+        "id": 108,
+        "in_spanish": "tímida",
+        "in_english": "shy",
+        "category": "adjective"
+    },
+    {
+        "id": 109,
+        "in_spanish": "tímido",
+        "in_english": "shy",
+        "category": "adjective"
+    },
+    {
+        "id": 110,
+        "in_spanish": "tío",
+        "in_english": "uncle",
+        "category": "noun"
+    },
+    {
+        "id": 111,
+        "in_spanish": "vaga",
+        "in_english": "lazy",
+        "category": "adjective"
+    },
+    {
+        "id": 112,
+        "in_spanish": "vago",
+        "in_english": "lazy",
+        "category": "adjective"
+    },
+    {
+        "id": 113,
+        "in_spanish": "vecina",
+        "in_english": "neighbor",
+        "category": "noun"
+    },
+    {
+        "id": 114,
+        "in_spanish": "vecino",
+        "in_english": "neighbor",
+        "category": "noun"
+    },
+    {
+        "id": 115,
+        "in_spanish": "yerno",
+        "in_english": "son-in-law",
+        "category": "noun"
+    }
+]

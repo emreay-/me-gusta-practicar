@@ -1,6 +1,8 @@
 import json
-from typing import Set
+from typing import Set, List
 from importlib import resources
+
+from me_gusta_practicar.core.word import Word
 
 
 def get_asset_path(filename: str):
@@ -49,3 +51,28 @@ def path_to_prepositons():
 
 def load_prepositions_json():
     return load_json_asset("prepositions.json")
+
+def load_prepositions() -> List[Word]:
+    preps = []
+    for p in load_prepositions_json():
+        preps.append(Word(in_spanish=p["in_spanish"], in_english=p["in_english"], category="preposition"))
+    return preps
+
+def path_to_others():
+    return get_asset_path("others.json")
+
+def load_others_json():
+    return load_json_asset("others.json")
+
+def load_others_set() -> Set[str]:
+    words = []
+    with open(get_asset_path("others.txt"), "r", encoding="utf-8") as file:
+        for line in file:
+            words.append(line.strip())
+    return set(words)
+
+def load_others() -> List[Word]:
+    words = []
+    for w in load_others_json():
+        words.append(Word(in_spanish=w["in_spanish"], in_english=w["in_english"], category=w["category"]))
+    return words

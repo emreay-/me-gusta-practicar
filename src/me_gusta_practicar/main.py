@@ -2,8 +2,7 @@ import pygame
 import json
 
 from me_gusta_practicar.main_menu import MainMenu
-from me_gusta_practicar.practices.verb_practice import VerbPractice
-from me_gusta_practicar.practices.noun_practice import NounPractice
+from me_gusta_practicar.practices import create_practices
 from me_gusta_practicar.ui.display import Display
 
 # Initialize Pygame
@@ -16,36 +15,22 @@ pygame.display.set_caption('Spanish Practice')
 
 def main():
     display = Display(screen=screen)
-
-    verb_practice = VerbPractice(display)
-    noun_practice = NounPractice(display)
-    
+    practices = create_practices(display)
     last_selected_practice = ""
 
     while True:
         menu = MainMenu(screen)
         selected_option = menu.run()
 
-        if selected_option == "Verb Practice":
-            verb_practice.run()
-            last_selected_practice = selected_option
-
-        elif selected_option == "Noun Practice":
-            noun_practice.run()
-            last_selected_practice = selected_option
-        
-        elif selected_option == "Conjugation Practice":
-            # Implement and import ConjugationPractice class similarly to VerbPractice
-            pass
-
-        elif selected_option == "Settings":
-            if last_selected_practice == "Verb Practice":
-                verb_practice.settings()
-            elif last_selected_practice == "Noun Practice":
-                noun_practice.settings()
-
-        elif selected_option is None:
+        if selected_option is None:
             break
+
+        if selected_option == "Settings":
+            practices[last_selected_practice].settings()
+            continue
+
+        practices[selected_option].run()
+        last_selected_practice = selected_option
 
     pygame.quit()
 

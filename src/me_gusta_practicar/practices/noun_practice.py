@@ -12,6 +12,8 @@ from me_gusta_practicar.ui.settings import SettingItem, BoolSettingItem, StringS
 __all__ = ["NounPractice"]
 
 class NounPractice(PracticeBase):
+    display_name = "Practice Nouns"
+
     def __init__(self, display: Display):
         super().__init__(display)
 
