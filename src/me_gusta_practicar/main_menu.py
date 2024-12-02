@@ -16,6 +16,9 @@ class MainMenu:
             "S: Settings"
         ]
 
+    def last_selected(self):
+        return self.menu_options[self.selected_option]
+
     def run(self):
         running = True
         while running:
@@ -28,7 +31,7 @@ class MainMenu:
                     if event.key == pygame.K_UP:
                         self.selected_option = (self.selected_option - 1) % len(self.menu_options)
                     if event.key == pygame.K_RETURN:
-                        return self.menu_options[self.selected_option]
+                        return self.last_selected()
                     if event.key == pygame.K_s:
                         return "Settings"
                     if event.key == pygame.K_ESCAPE:

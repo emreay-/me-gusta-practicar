@@ -16,7 +16,6 @@ pygame.display.set_caption('Spanish Practice')
 def main():
     display = Display(screen=screen)
     practices = create_practices(display)
-    last_selected_practice = ""
 
     while True:
         menu = MainMenu(screen)
@@ -26,11 +25,10 @@ def main():
             break
 
         if selected_option == "Settings":
-            practices[last_selected_practice].settings()
+            practices[menu.last_selected()].settings()
             continue
 
         practices[selected_option].run()
-        last_selected_practice = selected_option
 
     pygame.quit()
 
